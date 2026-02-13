@@ -1,0 +1,6 @@
+13 February 2026 - Meeting between Randy and Christian
+- Randy drew excesively elaborate schematic of experimental design
+- Christian is going to figure out how to pass multiple sequence alignment into python, parse the alignment to get the sequences, and put the sequences into a list.
+- Recommended package for this: biopython
+- Next steps (if you get bored):
+-- Figure out how to create permutations of MSA, with different cardinal directions included in the header line for each permutation. Then output all of these (it will be a TON of files!)
