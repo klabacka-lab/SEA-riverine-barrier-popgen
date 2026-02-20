@@ -4,3 +4,7 @@
 - Recommended package for this: biopython
 - Next steps (if you get bored):
 -- Figure out how to create permutations of MSA, with different cardinal directions included in the header line for each permutation. Then output all of these (it will be a TON of files!)
+
+20 February 2026 - Meeting between Randy and Christian
+- Randy drew "pseudocode" for how to create a fasta file for each permutation
+- Christian will meet with Perry to walk him through the objectives and get an idea on where to start with python scripts
