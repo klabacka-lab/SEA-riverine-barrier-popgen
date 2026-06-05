@@ -1,0 +1,2 @@
+/var/spool/slurmd/job12098865/slurm_script: line 18: 2977285 Killed                  python Riverine_Barriers_SC.py "/home/cfurnes0/MetaAnalysis/Trofimets_et_al2024/Edited_Fastas"
+slurmstepd: error: Detected 1 oom_kill event in StepId=12098865.batch. Some of the step tasks have been OOM Killed.
