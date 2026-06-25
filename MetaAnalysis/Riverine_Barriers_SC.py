@@ -6,6 +6,7 @@ from rpy2.robjects import r
 from rpy2.robjects.packages import importr
 import tempfile
 import pathlib
+import random
 from pathlib import Path
 import sys
 
@@ -54,8 +55,26 @@ for input_file in directory.glob("*.fasta"):
                 groupings.append([group1, group2])
         return groupings
 
+    def bigpermutationmaker(IDlist):
+        groupings = []
+        while len(groupings) < 100000:
+            for i in range(2, 50):
+                group1 = set()
+
+                for item in IDlist:
+                    temp = random.gauss(50, 16.67)
+                    if temp <= i:
+                        group1.add(item)
+                group2 = IDlist - group1
+                if [group1, group2] not in groupings:
+                    groupings.append([group1, group2])
+        return groupings
+
     #create a list of all possible groupings of the data into two groups
-    Possible_combos = permutationmaker(set(IDs.keys()))
+    if len(IDs) > 20:
+        Possible_combos = bigpermutationmaker(set(IDs.keys()))
+    else:
+        Possible_combos = permutationmaker(set(IDs.keys()))
 
     #output variables
     greater_than_true = 0

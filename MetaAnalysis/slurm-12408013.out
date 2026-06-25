@@ -1,0 +1,6 @@
+Traceback (most recent call last):
+  File "/home/cfurnes0/SEA-riverine-barrier-popgen/MetaAnalysis/Riverine_Barriers_SC.py", line 75, in <module>
+    Possible_combos = bigpermutationmaker(set(IDs.keys()))
+  File "/home/cfurnes0/SEA-riverine-barrier-popgen/MetaAnalysis/Riverine_Barriers_SC.py", line 67, in bigpermutationmaker
+    group1.add(IDlist[item])
+TypeError: 'set' object is not subscriptable

@@ -1,0 +1,17 @@
+R[write to console]: Error in .Primitive("[")(c(NA, 0, 0, NA), "X", "Y") : 
+  subscript out of bounds
+
+Traceback (most recent call last):
+  File "/home/cfurnes0/SEA-riverine-barrier-popgen/MetaAnalysis/Riverine_Barriers_SC.py", line 108, in <module>
+    FST_value = calc_FST(tmp.name, "X", "Y")
+  File "/home/cfurnes0/SEA-riverine-barrier-popgen/MetaAnalysis/Riverine_Barriers_SC.py", line 39, in calc_FST
+    FST_value = list(pwFst.rx(group1_char, group2_char))[0]
+  File "/home/cfurnes0/.conda/envs/rivers/lib/python3.9/site-packages/rpy2/robjects/vectors.py", line 81, in __call__
+    res = fun(*conv_args, **kwargs)
+  File "/home/cfurnes0/.conda/envs/rivers/lib/python3.9/site-packages/rpy2/rinterface_lib/conversion.py", line 45, in _
+    cdata = function(*args, **kwargs)
+  File "/home/cfurnes0/.conda/envs/rivers/lib/python3.9/site-packages/rpy2/rinterface.py", line 817, in __call__
+    raise embedded.RRuntimeError(_rinterface._geterrmessage())
+rpy2.rinterface_lib.embedded.RRuntimeError: Error in .Primitive("[")(c(NA, 0, 0, NA), "X", "Y") : 
+  subscript out of bounds
+
