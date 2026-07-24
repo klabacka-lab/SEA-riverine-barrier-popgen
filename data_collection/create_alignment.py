@@ -41,8 +41,6 @@ from typing import Dict, List, Optional, Tuple
 
 from Bio import Entrez, SeqIO
 
-# Set name of output directory
-outdir = "aligned_fastas"
 
 
 def sanitize_name(text: str) -> str:
@@ -134,6 +132,7 @@ def main() -> int:
     parser = argparse.ArgumentParser(
         description="Fetch GenBank accessions from a CSV and create one aligned FASTA file."
     )
+    parser.add_argument("--outdir", default="aligned_fastas", help = "output directory for alignments")
     parser.add_argument("--csv", required=True, help="Input CSV file")
     parser.add_argument("--email", required=True, help="NCBI email address required by Entrez")
     parser.add_argument("--api-key", default=None, help="NCBI API key (optional)")
