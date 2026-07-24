@@ -23,7 +23,6 @@ NCBI note:
 Example use:
     python make_alignment.py \
       --csv specimens.csv \
-      --outdir aligned_output \
       --email your.email@example.com \
       --gene-name COI
 """
@@ -41,6 +40,9 @@ from pathlib import Path
 from typing import Dict, List, Optional, Tuple
 
 from Bio import Entrez, SeqIO
+
+# Set name of output directory
+outdir = "aligned_fastas"
 
 
 def sanitize_name(text: str) -> str:
@@ -96,6 +98,14 @@ def run_mafft(input_fasta: Path, output_fasta: Path, mafft_cmd: str = "mafft") -
             f"stderr:\n{result.stderr}"
         )
 
+def uppercase_fasta_sequences(input_fasta: Path, output_fasta: Path) -> None:
+    with open(input_fasta) as inp, open(output_fasta, "w") as out:
+        for line in inp:
+            if line.startswith(">"):
+                out.write(line)
+            else:
+                out.write(line.upper())
+
 
 def write_fasta(records: List[Tuple[str, str]], output_path: Path) -> None:
     """
@@ -125,7 +135,6 @@ def main() -> int:
         description="Fetch GenBank accessions from a CSV and create one aligned FASTA file."
     )
     parser.add_argument("--csv", required=True, help="Input CSV file")
-    parser.add_argument("--outdir", required=True, help="Output directory")
     parser.add_argument("--email", required=True, help="NCBI email address required by Entrez")
     parser.add_argument("--api-key", default=None, help="NCBI API key (optional)")
     parser.add_argument("--gene-name", required=True, help="Gene name to use in output file and FASTA headers")
@@ -178,8 +187,8 @@ def main() -> int:
         river_col=args.river_column,
     )
 
-    raw_fasta = outdir / f"{output_base}.fasta"
-    aln_fasta = outdir / f"{output_base}.aligned.fasta"
+    raw_fasta = outdir / f"{output_base}.unaligned.fasta"
+    aln_fasta = outdir / f"{output_base}.fasta"
 
     accession_cache: Dict[str, Tuple[str, str]] = {}
     fasta_records: List[Tuple[str, str]] = []
@@ -239,7 +248,10 @@ def main() -> int:
         return 0
 
     try:
-        run_mafft(raw_fasta, aln_fasta, mafft_cmd=args.mafft)
+        temp_aln = outdir / f"{output_base}.aligned.tmp.fasta"
+        run_mafft(raw_fasta, temp_aln, mafft_cmd=args.mafft)
+        uppercase_fasta_sequences(temp_aln, aln_fasta)
+        temp_aln.unlink(missing_ok=True)
         print(f"Aligned FASTA written to {aln_fasta}")
     except FileNotFoundError:
         print(
