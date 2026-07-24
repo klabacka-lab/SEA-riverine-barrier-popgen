@@ -19,13 +19,13 @@ Requirements:
 
 NCBI note:
     Set Entrez.email to your email address when fetching from GenBank.
-    
-Example run from command line:
+
+Example use:
     python make_alignment.py \
       --csv specimens.csv \
       --outdir aligned_output \
       --email your.email@example.com \
-      --output-name my_gene
+      --gene-name COI
 """
 
 from __future__ import annotations
@@ -108,6 +108,18 @@ def write_fasta(records: List[Tuple[str, str]], output_path: Path) -> None:
                 fh.write(seq[i:i + 80] + "\n")
 
 
+def infer_output_basename(rows: List[dict], gene_name: str, genus_col: str, species_col: str, river_col: str) -> str:
+    genera = sorted({str(row[genus_col]).strip() for row in rows if str(row[genus_col]).strip()})
+    species = sorted({str(row[species_col]).strip() for row in rows if str(row[species_col]).strip()})
+    rivers = sorted({str(row[river_col]).strip() for row in rows if str(row[river_col]).strip()})
+
+    genus_part = genera[0] if len(genera) == 1 else "Mixed"
+    species_part = species[0] if len(species) == 1 else "spp"
+    river_part = rivers[0] if len(rivers) == 1 else "MultipleRivers"
+
+    return sanitize_name(f"{genus_part}_{species_part}_{gene_name}_{river_part}")
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Fetch GenBank accessions from a CSV and create one aligned FASTA file."
@@ -116,6 +128,7 @@ def main() -> int:
     parser.add_argument("--outdir", required=True, help="Output directory")
     parser.add_argument("--email", required=True, help="NCBI email address required by Entrez")
     parser.add_argument("--api-key", default=None, help="NCBI API key (optional)")
+    parser.add_argument("--gene-name", required=True, help="Gene name to use in output file and FASTA headers")
     parser.add_argument("--genbank-column", default="genbank_id", help="GenBank accession column name (default: genbank_id)")
     parser.add_argument("--genus-column", default="genus", help="Genus column name (default: genus)")
     parser.add_argument("--species-column", default="specific_epithet", help="Specific epithet column name (default: specific_epithet)")
@@ -127,8 +140,8 @@ def main() -> int:
     parser.add_argument("--sleep", type=float, default=0.34, help="Seconds to sleep between GenBank requests (default: 0.34)")
     parser.add_argument(
         "--output-name",
-        default="single_gene",
-        help="Base name for output files (default: single_gene)",
+        default=None,
+        help="Optional explicit output basename. If omitted, it is inferred as Genus_specificepithet_Gene_River or Genus_spp_Gene_River.",
     )
     args = parser.parse_args()
 
@@ -157,8 +170,16 @@ def main() -> int:
         print(f"Missing required columns: {', '.join(missing)}", file=sys.stderr)
         return 1
 
-    raw_fasta = outdir / f"{sanitize_name(args.output_name)}.fasta"
-    aln_fasta = outdir / f"{sanitize_name(args.output_name)}.aligned.fasta"
+    output_base = args.output_name or infer_output_basename(
+        rows=rows,
+        gene_name=args.gene_name,
+        genus_col=args.genus_column,
+        species_col=args.species_column,
+        river_col=args.river_column,
+    )
+
+    raw_fasta = outdir / f"{output_base}.fasta"
+    aln_fasta = outdir / f"{output_base}.aligned.fasta"
 
     accession_cache: Dict[str, Tuple[str, str]] = {}
     fasta_records: List[Tuple[str, str]] = []
@@ -181,21 +202,25 @@ def main() -> int:
 
             seq, _desc = accession_cache[accession]
 
-            genus = str(row[args.genus_column]).strip()
-            species = str(row[args.species_column]).strip()
-            museum_id = str(row[args.museum_column]).strip()
-            river = str(row[args.river_column]).strip()
-            side = str(row[args.side_column]).strip()
+            genus = sanitize_name(row[args.genus_column])
+            species = sanitize_name(row[args.species_column])
+            museum_id = sanitize_name(row[args.museum_column])
+            river = sanitize_name(row[args.river_column])
+            side = sanitize_name(row[args.side_column])
+            gene_name = sanitize_name(args.gene_name)
 
-            species_name = f"{genus}_{species}".replace(" ", "_")
-            header_parts = [
-                sanitize_name(museum_id),
-                sanitize_name(species_name),
-                sanitize_name(river),
-                sanitize_name(side),
+            # Header format:
+            # >Genus_species_MuseumID_GenbankID_Gene_River_side
+            header = "_".join([
+                genus,
+                species,
+                museum_id,
                 sanitize_name(accession),
-            ]
-            header = "|".join(part for part in header_parts if part)
+                gene_name,
+                river,
+                side,
+            ])
+
             fasta_records.append((header, seq))
 
         except Exception as e:

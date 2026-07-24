@@ -1,4 +1,4 @@
->ZMMU_NAP-00831|Ichtyophis_nguyenorum|Mekong|E|KP264623.1
+>Ichtyophis_nguyenorum_ZMMU_NAP-00831_KP264623.1_CYTB_Mekong_E
 tacaagaataaacataccaacatgaaccatatatgtcataatttttacnaggactctaac
 caagacnaatgatatgaaaaaccaccgttgttcttctactataaaaacntaatgtccatc
 ccagcacgaaaaactcatccgatcttaaaaattatcaacaattcatttattgatctccca
@@ -21,7 +21,7 @@ acactattttgattaacaacagcaaacgtaattatcctcacatgaattggcggacaacca
 gtaaaagaaccatttatcataatcggacaaatctcatcaattatctattttatattattt
 accaccctaatcccattggccggaatagcagaaaacaaatcactaaactactgtttcagt
 agcttatacnaaagcatnagccttgtaaactnaaaa
->ZMMU_NAP-01607|Ichtyophis_nguyenorum|Mekong|E|KP264622.1
+>Ichtyophis_nguyenorum_ZMMU_NAP-01607_KP264622.1_CYTB_Mekong_E
 tacaagactaaacattccaacatgaaccatatatgtcataatttttacnaggactctaac
 caagacnaatgatctgaaaaaccaccgttgttcttcaactataaaaacntaatgtccatc
 ccagcacgaaaaactcatccgatcttaaaaattatcaacaattcatttattgatctccca
@@ -44,7 +44,7 @@ acactattttgattaacaacagcaaacgtaattatcctcacatgaattggcggacaacca
 gtagaagaaccatttatcataatcggacaaatctcatcaattatctattttatattattt
 accaccctaatcccattggccggaatagcagaaaacaaagcactaaactactgtttcagt
 agcttatacnaaagcatcagccttgtaaactgaaaa
->ZMMU_NAP-03588|Ichtyophis_nguyenorum|Mekong|E|KP264621.1
+>Ichtyophis_nguyenorum_ZMMU_NAP-03588_KP264621.1_CYTB_Mekong_E
 tacaagactaaacattccaacatgaaccatatatgtcataatttttacnaggactctaac
 caagacnaatgatctgaaaaaccaccgttgttcttcaactataaaaacntaatgtccatc
 ccagcacgaaaaactcatccgatcttaaaaattatcaacaattcatttattgatctccca
@@ -67,7 +67,7 @@ acactattttgattaacaacagcaaacgtaattatcctcacatgaattggcggacaacca
 gtagaagaaccatttatcataatcggacaaatctcatcaattatctattttatattattt
 accaccctaatcccattggccggaatagcagaaaacaaagcactaaactactgtttcagt
 agcttatacnaaagcatcagccttgtaaactgaaaa
->FMNH_262775|Ichtyophis_nguyenorum|Mekong|E|MN928601.1
+>Ichtyophis_nguyenorum_FMNH_262775_MN928601.1_CYTB_Mekong_E
 ------------------------------------------------------------
 ------------------------------------------------------------
 ------------------------------------------------------------
@@ -90,7 +90,7 @@ acattattctgattaataacagcaaacctaattatcctcacatgaattggcggacaacca
 gtagaagaaccatttatcataattggacaaatctcatcagttatctattttatattactt
 accacccttatcccattggccggaatagcagaaaacaaatcacta---------------
 ------------------------------------
->LSUHC_9335|Ichtyophis_nguyenorum|Mekong|W|KP264619.1
+>Ichtyophis_nguyenorum_LSUHC_9335_KP264619.1_CYTB_Mekong_W
 -----------------caacatgagctgtctatgccgcctttcattaatggaatattac
 caagaccaatgatctgaaaaaccactgttgtacttcaactataaaaacntaatgaccatc
 aatgcacgaaaaacccaccctattctaaaaattatcaacaattcattcattgacctccca
@@ -113,7 +113,7 @@ atatggttctgattgacaacagccaacgtaattatcctcacatgaattggcggacaacca
 gtagaggaaccatttattataatcggtcaaatctcatcaattatttattttatattattt
 atcattctaatcccattaaccggattgacagaaaacaaatcactaaactactgttttagt
 agcttatcanaaagcatcagccttgtaaactgaaaa
->LSUHC_10106|Ichtyophis_nguyenorum|Mekong|W|KP264620.1
+>Ichtyophis_nguyenorum_LSUHC_10106_KP264620.1_CYTB_Mekong_W
 -----------------caacatgagctgtctatgccgcctttcattaatggaatattac
 caagaccaatgatctgaaaaaccactgttgtacttcaactataaaaacntaatgaccatc
 aatgcacgaaaaacccaccctattctaaaaattatcaacaattcattcattgacctccca
