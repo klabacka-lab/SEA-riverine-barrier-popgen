@@ -1,0 +1,24 @@
+
+No polymorphism detected - returning NULL.
+R callback write-console: Error: unable to find an inherited method for function ‘pop<-’ for signature ‘x = "NULL"’
+  
+Traceback (most recent call last):
+  File "/home/rklaback/Projects/SEA-riverine-barrier-popgen/PopulationGenetics/Riverine_Barriers_SC.py", line 44, in <module>
+    true_FST = calc_FST(input_file.resolve().as_posix(), "E", "W")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/Projects/SEA-riverine-barrier-popgen/PopulationGenetics/Riverine_Barriers_SC.py", line 36, in calc_FST
+    gen = r['pop<-'](gen, pop_factor)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/robjects/functions.py", line 208, in __call__
+    return (super(SignatureTranslatedFunction, self)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/robjects/functions.py", line 131, in __call__
+    res = super(Function, self).__call__(*new_args, **new_kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/rinterface_lib/conversion.py", line 46, in _
+    cdata = function(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/rinterface/__init__.py", line 930, in __call__
+    raise embedded.RRuntimeError(_rinterface._geterrmessage())
+rpy2.rinterface_lib.embedded.RRuntimeError: Error: unable to find an inherited method for function ‘pop<-’ for signature ‘x = "NULL"’
+

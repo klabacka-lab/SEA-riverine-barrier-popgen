@@ -1,0 +1,9 @@
+
+EnvironmentNameNotFound: Could not find conda environment: rivers
+You can list all discoverable environments with `conda info --envs`.
+
+
+Traceback (most recent call last):
+  File "/home/rklaback/Projects/SEA-riverine-barrier-popgen/PopulationGenetics/Riverine_Barriers_SC.py", line 2, in <module>
+    from Bio import SeqIO
+ModuleNotFoundError: No module named 'Bio'

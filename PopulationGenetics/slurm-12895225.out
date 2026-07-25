@@ -1,0 +1,21 @@
+R callback write-console: Error in .Primitive("[")(c(NA, 0.162094763092269, 0.162094763092269, NA : 
+  subscript out of bounds
+  
+Traceback (most recent call last):
+  File "/home/rklaback/Projects/SEA-riverine-barrier-popgen/PopulationGenetics/Riverine_Barriers_SC.py", line 44, in <module>
+    true_FST = calc_FST(input_file.resolve().as_posix(), "E", "W")
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/Projects/SEA-riverine-barrier-popgen/PopulationGenetics/Riverine_Barriers_SC.py", line 39, in calc_FST
+    FST_value = list(pwFst.rx(group1_char, group2_char))[0]
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/robjects/vectors.py", line 90, in __call__
+    res = fun(*conv_args, **kwargs)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/rinterface_lib/conversion.py", line 46, in _
+    cdata = function(*args, **kwargs)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/rklaback/myTools/miniconda3/envs/rivers/lib/python3.12/site-packages/rpy2/rinterface/__init__.py", line 930, in __call__
+    raise embedded.RRuntimeError(_rinterface._geterrmessage())
+rpy2.rinterface_lib.embedded.RRuntimeError: Error in .Primitive("[")(c(NA, 0.162094763092269, 0.162094763092269, NA : 
+  subscript out of bounds
+
