@@ -79,6 +79,7 @@ else:
 #output variables
 greater_than_true = 0
 greater_than_list = []
+FST_list = []
 
 #create list of fasta data for each grouping
 for groupings in Possible_combos:
@@ -106,6 +107,7 @@ for groupings in Possible_combos:
 
         #calculate FST for possible permutation
         FST_value = calc_FST(tmp.name, "X", "Y")
+        FST_list.append(FST_value)
 
         #compare with true FST
         if FST_value > true_FST:
@@ -123,6 +125,9 @@ for group1, group2, FST_value in greater_than_list:
     group1_str = ",".join(sorted(group1))
     group2_str = ",".join(sorted(group2))
     output += f"{group1_str}\t|\t{group2_str}\t|\t{FST_value}\n"
+
+output += "\nall FST values from analysis:\n "
+output += FST_list.join(",")
 
 #write output to file
 with open(outfile_name, "w") as out_file:
