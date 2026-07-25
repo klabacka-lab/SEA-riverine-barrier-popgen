@@ -1,0 +1,6 @@
+True FST: 0.15756467206689312
+# permutations with FST > true FST: 0
+Total permutations: 35
+p-value: 0.0
+
+Group1	Group2	FST

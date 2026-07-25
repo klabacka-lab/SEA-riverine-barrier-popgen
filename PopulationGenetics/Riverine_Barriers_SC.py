@@ -11,7 +11,7 @@ from pathlib import Path
 import sys
 
 input_file = Path(sys.argv[1] + ".fasta")
-outfile_name = sys.argv[1] + "_results.txt"
+outfile_name = "Output_" + sys.argv[1] + ".txt"
 
 #make a dictionary of the IDs and sequences from fasta
 IDs = {}

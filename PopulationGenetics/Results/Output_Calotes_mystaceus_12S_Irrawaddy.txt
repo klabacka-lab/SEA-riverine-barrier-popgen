@@ -1,0 +1,7 @@
+True FST: 0.02794022092267706
+# permutations with FST > true FST: 1
+Total permutations: 35
+p-value: 0.02857142857142857
+
+Group1	Group2	FST
+Calotes_mystaceus_CAS206548_59_12SrRNA_Irrawaddy_E,Calotes_mystaceus_CAS213300_60_12SrRNA_Irrawaddy_E	|	Calotes_mystaceus_CAS239276_62_12SrRNA_Irrawaddy_W,Calotes_mystaceus_CAS239398_61_12SrRNA_Irrawaddy_W,Calotes_mystaceus_CAS240287_57_12SrRNA_Irrawaddy_E,Calotes_mystaceus_CAS240296_56_12SrRNA_Irrawaddy_E	|	0.04700579523502898

@@ -1,0 +1,7 @@
+True FST: 0.011846960574868932
+# permutations with FST > true FST: 1
+Total permutations: 10
+p-value: 0.1
+
+Group1	Group2	FST
+Calotes_goetzi_NMER058409_28_CO1_ChaoPhraya_W,Calotes_mystaceus_PTk1_21_CO1_ChaoPhraya_E	|	Calotes_goetzi_NMER058109_16_CO1_ChaoPhraya_E,Calotes_goetzi_ZFMK84867_24_CO1_ChaoPhraya_W,Calotes_mystaceus_CNb1_20_CO1_ChaoPhraya_E	|	0.013778381525325067
