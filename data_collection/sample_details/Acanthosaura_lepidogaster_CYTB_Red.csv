@@ -1,39 +1,17 @@
-﻿genus,specific_epithet,museum_id,genbank_id,river,side,
-Acanthosaura,lepidogaster,ROM 37082,AY572928,Red,S,
-Acanthosaura,lepidogaster,ROM 30693,AY572927 ,Red,N,
-Acanthosaura,lepidogaster,ROM 38116,AY572926,Red,S,
-Acanthosaura,lepidogaster,ROM 38115 ,AY572925,Red,S,
-Acanthosaura,lepidogaster,ROM 38117 ,AY572924,Red,S,
-Acanthosaura,lepidogaster,FMNH 255489 ,AY572922 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255487,AY572921,Red,S,
-Acanthosaura,lepidogaster,FMNH 255488,AY572920 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255491 ,AY572919 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255584 ,AY572918 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255581,AY572917 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255587 ,AY572916 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255585 ,AY572915 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255583,AY572914 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255582,AY572913 ,Red,S,
-Acanthosaura,lepidogaster,FMNH 255481 ,AY572912 ,Red,S,
-Acanthosaura,lepidogaster,ROM 31960 ,AY572911 ,Red,N,
-Acanthosaura,lepidogaster,ROM 36075 ,AY572910 ,Red,N,
-Acanthosaura,lepidogaster,ROM 36073,AY572909 ,Red,N,
-Acanthosaura,lepidogaster,ROM 30694,AY572908 ,Red,N,
-Acanthosaura,lepidogaster,ROM 30720 ,AY572907 ,Red,N,
-Acanthosaura,lepidogaster,ROM 30503,AY572906 ,Red,N,
-Acanthosaura,lepidogaster,ZISP 20753-2 ,AY572905 ,Red,S,
-Acanthosaura,lepidogaster,ZISP 20753-1,AY572904 ,Red,S,
-Acanthosaura,lepidogaster,ROM 35038 ,AY572903 ,Red,N,
-Acanthosaura,lepidogaster,ROM 31957,AY572902 ,Red,N,
-Acanthosaura,lepidogaster,ROM 31954 ,AY572901 ,Red,N,
-Acanthosaura,lepidogaster,ROM 26328,AY572900,Red,S,
-Acanthosaura,lepidogaster,ZISP F11881 ,MT376201 ,Red,S,
-Acanthosaura,lepidogaster,ZISP F11846,MT376200,Red,S,
-Acanthosaura,lepidogaster,ZISP F11845,MT376199 ,Red,S,
-Acanthosaura,lepidogaster,ZISP F11809,MT376198 ,Red,N,
-Acanthosaura,lepidogaster,ZISP F11808,MT376197 ,Red,N,
-Acanthosaura,lepidogaster,ZISP F11807,MT376196 ,Red,N,
-Acanthosaura,lepidogaster,ZISP F11779 ,MT376195,Red,N,
-Acanthosaura,lepidogaster,ZISP F11778 ,MT376194,Red,N,
-Acanthosaura,lepidogaster,ZISP 30740,MT376193,Red,N,
-Acanthosaura,lepidogaster,ZISP F11775,MT376192 ,Red,N,
+﻿genus,specific_epithet,museum_id,genbank_id,river,side
+Acanthosaura,lepidogaster,ROM 30693,AY572927 ,Red,N
+Acanthosaura,lepidogaster,ROM 38115 ,AY572925,Red,S
+Acanthosaura,lepidogaster,FMNH 255489 ,AY572922 ,Red,S
+Acanthosaura,lepidogaster,FMNH 255491 ,AY572919 ,Red,S
+Acanthosaura,lepidogaster,FMNH 255581,AY572917 ,Red,S
+Acanthosaura,lepidogaster,FMNH 255583,AY572914 ,Red,S
+Acanthosaura,lepidogaster,FMNH 255582,AY572913 ,Red,S
+Acanthosaura,lepidogaster,FMNH 255481 ,AY572912 ,Red,S
+Acanthosaura,lepidogaster,ROM 31960 ,AY572911 ,Red,N
+Acanthosaura,lepidogaster,ROM 36075 ,AY572910 ,Red,N
+Acanthosaura,lepidogaster,ROM 30503,AY572906 ,Red,N
+Acanthosaura,lepidogaster,ZISP 20753-1,AY572904 ,Red,S
+Acanthosaura,lepidogaster,ROM 31954 ,AY572901 ,Red,N
+Acanthosaura,lepidogaster,ROM 26328,AY572900,Red,S
+Acanthosaura,lepidogaster,ZISP F11845,MT376199 ,Red,S
+Acanthosaura,lepidogaster,ZISP F11809,MT376198 ,Red,N

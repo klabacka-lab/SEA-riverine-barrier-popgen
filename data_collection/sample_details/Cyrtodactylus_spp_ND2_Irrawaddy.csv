@@ -1,23 +1,9 @@
-﻿genus,specific_epithet,museum_id,genbank_id,river,side,
-Cyrtodactylus,annandalei,CAS 215722,JX440524,Irrawaddy,W,
-Cyrtodactylus,meersi,MH624104,MH624104,Irrawaddy,E,
-Cyrtodactylus,pyadalinensis,LSUHC 13932,MK488057,Irrawaddy,E,
-Cyrtodactylus,pyadalinensis,CAS 226142,MH624105,Irrawaddy,E,
-Cyrtodactylus,pyadalinensis,CAS 226143,MH642106,Irrawaddy,E,
-Cyrtodactylus,nyinyikyawi,CAS 226139,MH624118,Irrawaddy,W,
-Cyrtodactylus,peguensis,LSUHC 13454,MH624122,Irrawaddy,E,
-Cyrtodactylus,pyinyaungensis,LSUHC 13148,MH624120,Irrawaddy,E,
-Cyrtodactylus,pyinyaungensis,LSUHC 12939,MH624119,Irrawaddy,E,
-Cyrtodactylus,pyinyaungensis,LSUHC 13149,MH624121,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,CAS 245200,MH624107,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,CAS 245202,MH624108,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,CAS 245201,MH624117,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13501,MH624116,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13807,MH624115,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,USNM 559805,JX440536,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13809,MH624111,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13808,MH624113,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13806,MH624114,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13505,MH624112,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13500,MH624109,Irrawaddy,E,
-Cyrtodactylus,myintkyawthurai,LSUHC 13502,MH624110,Irrawaddy,E,
+﻿genus,specific_epithet,museum_id,genbank_id,river,side
+Cyrtodactylus,annandalei,CAS 215722,JX440524,Irrawaddy,W
+Cyrtodactylus,meersi,MH624104,MH624104,Irrawaddy,E
+Cyrtodactylus,pyadalinensis,LSUHC 13932,MK488057,Irrawaddy,E
+Cyrtodactylus,nyinyikyawi,CAS 226139,MH624118,Irrawaddy,W
+Cyrtodactylus,peguensis,LSUHC 13454,MH624122,Irrawaddy,E
+Cyrtodactylus,pyinyaungensis,LSUHC 13148,MH624120,Irrawaddy,E
+Cyrtodactylus,myintkyawthurai,CAS 245200,MH624107,Irrawaddy,E
+Cyrtodactylus,myintkyawthurai,LSUHC 13501,MH624116,Irrawaddy,E

@@ -24,6 +24,7 @@ Example use:
     python make_alignment.py \
       --csv specimens.csv \
       --email your.email@example.com \
+      --gene-name COI
 """
 
 from __future__ import annotations
@@ -115,14 +116,16 @@ def write_fasta(records: List[Tuple[str, str]], output_path: Path) -> None:
                 fh.write(seq[i:i + 80] + "\n")
 
 
-def infer_output_basename(rows: List[dict], gene_name: str, genus_name: str, species_col: str, river_col: str) -> str:
+def infer_output_basename(rows: List[dict], gene_name: str, genus_col: str, species_col: str, river_col: str) -> str:
+    genera = sorted({str(row[genus_col]).strip() for row in rows if str(row[genus_col]).strip()})
     species = sorted({str(row[species_col]).strip() for row in rows if str(row[species_col]).strip()})
     rivers = sorted({str(row[river_col]).strip() for row in rows if str(row[river_col]).strip()})
 
+    genus_part = genera[0] if len(genera) == 1 else "Mixed"
     species_part = species[0] if len(species) == 1 else "spp"
     river_part = rivers[0] if len(rivers) == 1 else "MultipleRivers"
 
-    return sanitize_name(f"{genus_name}_{species_part}_{gene_name}_{river_part}")
+    return sanitize_name(f"{genus_part}_{species_part}_{gene_name}_{river_part}")
 
 
 def main() -> int:
@@ -133,6 +136,7 @@ def main() -> int:
     parser.add_argument("--csv", required=True, help="Input CSV file")
     parser.add_argument("--email", required=True, help="NCBI email address required by Entrez")
     parser.add_argument("--api-key", default=None, help="NCBI API key (optional)")
+    parser.add_argument("--gene-name", required=True, help="Gene name to use in output file and FASTA headers")
     parser.add_argument("--genbank-column", default="genbank_id", help="GenBank accession column name (default: genbank_id)")
     parser.add_argument("--genus-column", default="genus", help="Genus column name (default: genus)")
     parser.add_argument("--species-column", default="specific_epithet", help="Specific epithet column name (default: specific_epithet)")
@@ -148,10 +152,6 @@ def main() -> int:
         help="Optional explicit output basename. If omitted, it is inferred as Genus_specificepithet_Gene_River or Genus_spp_Gene_River.",
     )
     args = parser.parse_args()
-    csv_stem = Path(args.csv).stem
-    gene_name = csv_stem.split("_")[-2]
-    genus_name = csv_stem.split("_")[0]
-    print(genus_name)
 
     csv_path = Path(args.csv)
     outdir = Path(args.outdir)
@@ -180,8 +180,8 @@ def main() -> int:
 
     output_base = args.output_name or infer_output_basename(
         rows=rows,
-        gene_name=gene_name,
-        genus_name=genus_name,
+        gene_name=args.gene_name,
+        genus_col=args.genus_column,
         species_col=args.species_column,
         river_col=args.river_column,
     )
@@ -215,6 +215,7 @@ def main() -> int:
             museum_id = sanitize_name(row[args.museum_column])
             river = sanitize_name(row[args.river_column])
             side = sanitize_name(row[args.side_column])
+            gene_name = sanitize_name(args.gene_name)
 
             # Header format:
             # >Genus_species_MuseumID_GenbankID_Gene_River_side
@@ -224,7 +225,6 @@ def main() -> int:
                 museum_id,
                 sanitize_name(accession),
                 gene_name,
-                genus_name,
                 river,
                 side,
             ])
