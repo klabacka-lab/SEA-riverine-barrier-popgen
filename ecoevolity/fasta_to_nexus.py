@@ -2,7 +2,7 @@ from Bio import AlignIO
 import os
 
 # Text file containing one FASTA filename per line
-list_file = "alignment_list.txt"
+list_file = "fasta_list.txt"
 
 with open(list_file) as f:
     fasta_files = [line.strip() for line in f if line.strip()]

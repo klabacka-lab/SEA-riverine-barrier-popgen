@@ -86,5 +86,5 @@ comparisons:
     path: "../alignments/Leiolepis_belliana_ND2_ChaoPhraya.nex"
 - comparison:
     path: "../alignments/Lycodon_neomaculatus_CYTB_ChaoPhraya.nex"
-
-
+- comparison:
+    path: "../alignments/Draco_maculatus_ND2_Ping.nex"

@@ -77,12 +77,32 @@ global_comparison_settings:
 
 comparisons:
 - comparison:
-    path: "../alignments/Edited_CalotesgoetziA2_and_Calotesbachae_CO1_Mekong.nex"
+    path: "../alignments/Acanthosaura_murphyi_COI_Mekong.nex"
 - comparison:
-    path: "../alignments/Edited_Indotestudo_elongata_CO1_Mekong.nex"
+    path: "../alignments/Calotes_spp_COI_Mekong.nex"
 - comparison:
-    path: "../alignments/Edited_Microhylamalcomi_CO1_Mekong.nex"
+    path: "../alignments/Cyrtodactylus_interdigitalis_ND2_Mekong.nex"
 - comparison:
-    path: "../alignments/Edited_Trimerusuruscyanolabris_and_Trimeresuruscardamomensis_ND4_Mekong.nex"
+    path: "../alignments/Cyrtodactylus_ngati_ND2_Mekong.nex"
 - comparison:
-    path: "../alignments/Ichthyophisbannanicus_cytb_Mekong.nex"
+    path: "../alignments/Draco_maculatus_ND2_Mekong.nex"
+- comparison:
+    path: "../alignments/Ichthyophis_bannanicus_CYTB_Mekong.nex"
+- comparison:
+    path: "../alignments/Ichtyophis_spp_COI_Mekong.nex"
+- comparison:
+    path: "../alignments/Microhyla_berdmorei_COI_Mekong.nex"
+- comparison:
+    path: "../alignments/Microhyla_berdmorei_COI_Mekong.nex"
+- comparison:
+    path: "../alignments/Microhyla_malcomi_COI_Mekong.nex"
+- comparison:
+    path: "../alignments/Microhyla1_mukhlesuri_CYTB_Mekong.nex"
+- comparison:
+    path: "../alignments/Microhyla2_mukhlesuri_CYTB_Mekong.nex"
+- comparison:
+    path: "../alignments/Trimeresurus1_spp_ND4_Mekong.nex"
+- comparison:
+    path: "../alignments/Trimeresurus2_spp_ND4_Mekong.nex"
+- comparison:
+    path: "../alignments/Trimeresurus3_spp_ND4_Mekong.nex"
