@@ -1,0 +1,215 @@
+#NEXUS
+begin data;
+dimensions ntax=12 nchar=1064;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TTTTGGGTCGATACTCCTTTCCTGCTCAATAATCCAAATTATAACCGGCTTCTTTCTAGCCATCCACTAC
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TTTTGGGTCGATACTCCTTTCCTGCTCAATAATCCAAATTATAACCGGCTTCTTTCTAGCCATCCACTAC
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TTTTGGGTCGATACTCCTTTCCTGCTCAATAATCCAAATTATAACCGGCTTCTTTCTAGCCATCCACTAC
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TTTTGGGTCGATACTCCTTTCCTGCTCAATAATCCAAATTATAACCGGCTTCTTTCTAGCCATCCACTAC
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         TTTTGGGTCGATACTCCTTTCCTGCTCAATAATCCAAATTATAACCGGCTTCTTTCTAGCCATCCACTAC
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E ACAGCCAACATCAACCTAGCCTTCTCATCTATTATCCACATCTCCCGAGATGTACCATACGGCTGAATTA
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E ACAGCCAACATCAACCTAGCCTTCTCATCTATTATCCACATCTCCCGAGATGTACCATACGGCTGAATTA
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E ACAGCCAACATCAACCTAGCCTTCTCATCTATTATCCACATCTCCCGAGATGTACCATACGGCTGAATTA
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E ACAGCCAACATCAACCTAGCCTTCTCATCTATTATCCACATCTCCCGAGATGTACCATACGGCTGAATTA
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         ACAGCCAACATCAACCTAGCCTTCTCATCTATTATCCACATCTCCCGAGATGTACCATACGGCTGAATTA
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TACAAAATACACACGCCATTGGCGCATCCATATTCTTCATTTGCATTTACATTCACATCGCACGAGGACT
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TACAAAATACACACGCCATTGGCGCATCCATATTCTTCATTTGCATTTACATTCACATCGCACGAGGACT
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TACAAAATACACACGCCATTGGCGCATCCATATTCTTCATTTGCATTTACATTCACATCGCACGAGGACT
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TACAAAATACACACGCCATTGGCGCATCCATATTCTTCATTTGCATTTACATTCACATCGCACGAGGACT
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         TACAAAATACACACGCCATTGGCGCATCCATATTCTTCATTTGCATTTACATTCACATCGCACGAGGACT
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TTACTACGGCTCCTACCTTAATAAAGAAGTCTGACTCTCAGGCACCACCCTTCTAATTATTCTAATAGCC
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TTACTACGGCTCCTACCTTAATAAAGAAGTCTGACTCTCAGGCACCACCCTTCTAATTATTCTAATAGCC
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TTACTACGGCTCCTACCTTAATAAAGAAGTCTGACTCTCAGGCACCACCCTTCTAATTATTCTAATAGCC
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TTACTTGGGCTCCTACCTTAATAAAGAAGTCTGACTCTCAGGCACCACCCTTCTAATTATTCTAATAGCC
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         TTACTACGGCTCCTACCTTAATAAAGAAGTCTGACTCTCAGGCACCACCCTTCTAATTATTCTAATAGCC
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E ACAGCCTTCTTTGGTTACGTCCTACCATGAGGACAAATATCCTTCTGAGCAGCAACAGTAATCACAAATC
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E ACAGCCTTCTTTGGTTACGTCCTACCATGAGGACAAATATCCTTCTGAGCAGCAACAGTAATCACAAATC
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E ACAGCCTTCTTTGGTTACGTCCTACCATGAGGACAAATATCCTTCTGAGCAGCAACAGTAATCACAAATC
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E ACAGCCTTCTTTGGTTACGTCCTACCATGAGGACAAATATCCTTCTGAGCAGCAACAGTAATCACAAATC
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         ACAGCCTTCTTTGGTTACGTCCTACCATGAGGACAAATATCCTTCTGAGCAGCAACAGTAATCACAAATC
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TTCTAACCGCCATCCCATATTTAGGAACAACCCTCACCACATGACTATGAGGCGGATTCGCAATTAACGA
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TTCTAACCGCCATCCCATATTTAGGAACAACCCTCACCACATGACTATGAGGCGGATTCGCAATTAACGA
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TTCTAACCGCCATCCCATATTTAGGAACAACCCTCACCACATGACTATGAGGCGGATTCGCAATTAACGA
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TTCTAACCGCCATCCCATATTTAGGAACAACCCTCACCACATGACTATGAGGCGGATTCGCAATTAACGA
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         TTCTAACCGCCATCCCATATTTAGGAACAACCCTCACCACATGACTATGAGGCGGATTCGCAATTAACGA
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TCCAACACTAACCCGTTTCTTCGCTCTACATTTTATTCTTCCCTTCGCCATCATCTCTATATCTTCAGTA
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TCCAACACTAACCCGTTTCTTCGCTCTACATTTTATCCTTCCCTTCGCCATCATCTCTATATCTTCAGTA
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TCCAACACTAACCCGTTTCTTCGCTCTACATTTTATTCTTCCCTTCGCCATCATCTCTATATCTTCAGTA
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TCCAACACTAACCCGTTTCTTCGCTCTACATTTTATTCTTCCCTTCGCCATCATCTCTATATCTTCAGTA
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         TCCAACACTAACCCGTTTCTTCGCTCTACATTTTATTCTTCCCTTCGCCATCATCTCTATATCTTCAGTA
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E CATATCCTCCTACTACACAATGAAGGTTCAAGCAACCCTCTAGGAACAAACTCAGATATTGATAAGATTC
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E CATATCCTCCTACTACACAATGAAGGTTCAAGCAACCCTCTAGGAACAAACTCAGATATTGATAAGATTC
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E CATATCCTCCTACTACACAATGAAGGTTCAAGCAACCCTCTAGGAACAAACTCAGATATTGATAAGATTC
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E CATATCCTCCTACTACACAATGAAGGTTCAAGCAACCCTCTAGGAACAAACTCAGATATTGATAAGATTC
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ----------------------------------------------------------------------
+Trimeresurus_macrops_B27_25_cytb_Nan_E         CATATCCTCCTACTACACAATGAAGGNTCAAGCAACCCTCTAGGAACAAACTCAGATATTGATAAGATTC
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ----------------------------------------------------------------------
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       --------------------------------------------ACAAAAAGTACCAAAATATTTATCAT
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       --------------------------------------------ATAATAATTACCCTAGTGTTTGTCAT
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       --------------------------------------------ATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E CATTCCACCCATATCACTCATATAAAGATACCCTTATACTAACTATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E CATTCCACCCATATCACTCATATAAAGATACCCTTATACTAACTATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E CATTCCACCCATATCACTCATATAAAGATACCCTTATACTAACTATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E CATTCCACCCATATCACTCATATAAAGATACCCTTATACTAACTATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       --------------------------------------------ATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       --------------------------------------------ATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       --------------------------------------------ATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_B27_25_cytb_Nan_E         CATTCCACCCATATCACTCATATAAAGATACCCTTATACTAACTATAATAATTACCCTATTATTTATCAT
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        --------------------------------------------ATAATAATTACCCTATTATTTATCAT
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAAGTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAATCACACCC
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_B27_25_cytb_Nan_E         CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        CCTATCATTCTTCCCAAATATTATAAATGACCCAGAAAACTTCTCAAAAGCTAATCCACTAGTCACACCC
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+Trimeresurus_macrops_B27_25_cytb_Nan_E         CAACACATTAAACCCGAATGATACTTTTTATTCGCC----------------------------------
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        CAACACATTAAACCCGAATGATACTTTTTATTCGCCTACGGAATCCTACGATCAATCCCAAACAAACTAG
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+Trimeresurus_macrops_B27_25_cytb_Nan_E         ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        GCGGAGCCCTCGCTTTAATCCTATCAATCGCTATCCTCTTCACAACTCCCTTCACCCACACCTCCCATGT
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+Trimeresurus_macrops_B27_25_cytb_Nan_E         ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        TCGTTCCATAATATTTCGACCATTTATACAACTTACATTCTGAACCTTTACAACTACATTTATCATTATT
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTTAATCCTATACT
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       ACTTGAGCTGCCACTAAACCAGTTGAACCTCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       ACTTGAGCTGCCACTAAACCAGTTGAACCCCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+Trimeresurus_macrops_B27_25_cytb_Nan_E         ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        ACTTGAGCTGCCACTAAACCAGTTGAACCCCCATTCACAGAAATCGGCCAACTATCTTCAATCCTATACT
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAACAAAATTCAAACTTTACCTGCTCTAAA
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAATCAAAACTTCAAACCCTCATGCTATAAT
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAACAAAATTTCAAACTTACCTGCTCTAAT
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E TCATATT---------------------------------------------------------------
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAA---------------------------
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAA---------------------------
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAA---------------------------
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAACAAAATTCAAACTTTACCTGCTCTAAT
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAACAAAATTCAAACTTTACCTGCTCTAAT
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAACAAAATTCAAA-CTTACCTGCTCTACA
+Trimeresurus_macrops_B27_25_cytb_Nan_E         ----------------------------------------------------------------------
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        TCATATTCTTTATAGCCAACCCCCTACTCGGCCTAACAGAAAACAAAATTTCAAACTTACCTGCTCTAAA
+
+Trimeresurus_macrops_TMA24_23_cytb_Nan_W       AGCTAACTTTTTT-
+Trimeresurus_macrops_TMA31_33_cytb_Nan_E       A-------------
+Trimeresurus_macrops_TMA14_23_cytb_Nan_W       AGCTTACCCCTTTT
+Trimeresurus_macrops_ZMMURe17858_28_cytb_Nan_E --------------
+Trimeresurus_macrops_ZMMURe17855_38_cytb_Nan_E --------------
+Trimeresurus_macrops_ZMMURe17857_25_cytb_Nan_E --------------
+Trimeresurus_macrops_ZMMURe17856_25_cytb_Nan_E --------------
+Trimeresurus_macrops_TMA21_23_cytb_Nan_W       AG------------
+Trimeresurus_macrops_TMA19_23_cytb_Nan_W       AGCTTA--------
+Trimeresurus_macrops_TMA20_23_cytb_Nan_W       AGCTTAAACTTTTT
+Trimeresurus_macrops_B27_25_cytb_Nan_E         --------------
+Trimeresurus_macrops_TMA7_25_cytb_Nan_E        AGCTTACCTTTTTT
+
+;
+end;

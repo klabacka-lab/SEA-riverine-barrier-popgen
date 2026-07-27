@@ -1,0 +1,403 @@
+#NEXUS
+begin data;
+dimensions ntax=8 nchar=3027;
+format datatype=dna missing=? gap=- interleave;
+matrix
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ATAAGCCCCCTAATCCTACTAACCTTAATCACAAGCCTAATTACAAGCACCATTATCACAATGTCCAGCC
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----GCCCCCTAATTCTACTAACCCTAATCACAGGCCTAGTCACAAGTACCATTATTACAATGTCCAGCC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ATAAGCCCCCTAATTCTACTAACCTTGATCACAAGCCTAGTTACAAGCACCATTATTACAATATCCAGCC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ---AACCCCCTAATCCTATTAACCTTAACCACAAAGACATTGGCACCCACCATTATTACAATGTCCAGCC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       A--GGGATCATTATCGAGTTACCGCTCCTTATAACCCTTTGTGAACATACCCCAAACGTTGCCTCGGCGG
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ----------AGGTTAAGTTAAC-------------------------------------------AAGG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ---AACCCCCTAATTATACTAACCTTAATCACAAAGACATTGGCACCCTCCATTATTACAATGTCTAGCC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ---AACCCCCTAATTATACTAACCTTAACCACAAAGACATTGGCACACTCGATTATTACAATGTCTAGCC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ACCACTGACTAATAGCCTGATTG--------------GGCCTCGAACTAAACACGCTAAGCATTCTACCA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ACAACTGACTAATGGCCTGACTA--------------GGCCTTGAACTAAACACACTAAGCATTCTACCA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ACCACTGACTAATAGCCTGACTA--------------GGCCTTGAACTAAACACACTAAGCATCCTACCA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ACAATTGACTAATAGCCTGACTA--------------GGCCTTGAACTAAACACATTAAGCATTCTACCA
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       GCAGCCGGAGCCCAGCTCCGTCGCCCGGAGCCGCCGTCTCGGCGCGCCCCACCCGCCGGCGGACCACCAA
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GCGCATGGTGAAT-GCCTTGGCACTAGGAGCCGATG-AAGGACGGGACTAACACCGATATGCTTCGGGGA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ACCACTGACTAATAGCCTGACTA--------------GGCCTTGAACTAAACACACTTAGCATTCTACCA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ACAACTGACTAATAGCCTGACTA--------------GGCCTTGAACTAAACACACTTAGCATTCTACCA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ATTATTATTAAACTTAAACAC------CCCCGTGCAACAGAAGCCGCTACAAAATACTTTCTACTCCAGG
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ATCATTATCAAACTCAAACAC------CCCCGTGCAACAGAAGCCACTACAAAATACTTTCTTCTCCAAG
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ATTATTATCAAACTCAAACAC------CCTCGTGCAACAGAAGCCACTACAAAATACTTCCTTCTTCAAG
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ATTATTATCAAACTTAAACAC------CCTCGTGCAACAAAGGCCACTACAAAATACTTTCTTCTTCAAG
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ACTCTATTTAAACGACGTCTC------TTCTGAGTGGCACAAGCAAATA-----------------ATCA
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GCTGTACGTAAGCTATGATCCGGAGATTTCCGAATGGGGCAACCCAGCAG-------------TTTTAAT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ATTATTATTAAACTCAAACAC------CCTCGTGCAACAGAAGCCACTACAAAATACTTCCTTCTCCAGG
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ATTATTATTAAACTCAAACAC------CCTCGTGCAACAGAAGCCACTACAAAATACTTCCTTCTCCAAG
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CTACAGCTGCTACCATGATCCTCTTCGCCGGTACAACAAATACATGATTAACAGGACAATGGACCATCCA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CCACTGCTGCCACCATAATTCTTTTCGCAGGTACAACAAACACATGATTAACAGGACAATGAACCATCCA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CCACAGCCGCCACTATGATCCTCTTCGCTGGTACAACAAACACATGATTAACAGGACAATGAAACATCCA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CCACAGCAGCCACTATAATCCTCTTCGCGGGTACAACAAACACCTGATTAACAGGACAATGAACCATCCA
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       AAACTTTTAACAACGGATCTCTTGGTTCTGGCATCGATGAAGAACGCAGCGAAATGCGATAAGTAATGTG
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CAACTGTTACCACTAGATGAATTCATAGTCTAGTTGGAGGTAAACGCTGTGAACTGAAACATCTCATTAG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CCATGGCCGCCACCATAATCCTCTTCGCAGGTACAACAAACACATGATTAACAGGACAATGAACCATCCA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E CCACGGCCGCCACTATAATCCTCTTCGCAGGTACAACAAACACATGATTAACAGGACAATGAACCATCCA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CAGC------TCCTCCACACTACCAACCCTATTAATAACTGTCGCAATTATACTCAAACTGGGCCTAGCC
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CAGC------TCCTCCACACTACCAACCCTTCTAATAACCGTCGCAATCCTACTCAAACTGGGCCTGGCC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CAGC------TCCTCCACACTATCCACCCTACTAATAACCACTGCAATTATACTCAAACTAGGCCTGGCC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CAGC------TCCTCCACACTACCAACTCTACTAATAACTGCTGCAATTATACTCAAACTAGGCCTGGCC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       AATTGCAGAATTCAGTGAATCATCGAATCTTTGAACGCACATTGCGCCCGCCAGCATTCTGGCGGGCATG
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CAGC-AGGAATATAAAGAAATTTCGATTCCCTAAGTA---GCGGCGAGCGAACGGGGAACAGCCCAAACC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CAGC------TCTTCAACACTACCCACCATACTAATAACCATTGCAATTATACTCAAACTAGGCTTGGCC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E CAGC------TCTTCAACACTACCCACCATACTAATAACCATTGCAATTATACTCAAACTAGGCTTGGCC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CCAGTACATGCCTGATA----------------CCCCCAAGTCCTACAAGGCCTCACTATATACACAGCA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CCAGTACATGCCTGATA----------------CCCACAGGTCCTACAAGGCCTCACCATACACACAGCA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CCAGTACATGCCTGATA----------------CCCACAAGTCCTACAAGGCCTCACTATACACACAGCA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CCAGTACATGCCTGATA----------------CCCGCAGGTCCTACAAGGCCTCACCATACACACAGCA
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       CCTGTTCGAGCGTCATT------------TCAACCCTCAAGCACCGCTTGGCGTTGGGGCCC-TACGGCT
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  AAAGTGCTTGCACTTTGGGGTTGTAGGACTGAACATTTGAGTTACCAAAGAACTTGATAGTC-GAAGGAT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CCAGTACATGCTTGATA----------------CCCACAGGTCCTGCAAGGCCTCACCATACACACAGCA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E CCAGTACATGCTTGATA----------------CCCACAGGTCCTGCAAGGCCTCACCATACACACAGCA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CTAGCAATCTCAACATGACAAAAACTGGCCCCACTAGCT------------------------ATGCTAT
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CTAGCAATCTCAACATGACAAAAATTAGCCCCACTAGCC------------------------ATGCTAT
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CTAGTAATCTCAACATGACAAAAATTAGCCCCACTAGCC------------------------ATACTAT
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CTAGCAATCTCAACATGACAAAAATTAGCTCCACTGGCC------------------------ATACTAT
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       TCCGTAGGCCCCGAAATACAGTGGCGGACCCTCCCGGA-------------------------GCCTCCT
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TTGGGAAAATCCGCCATAGATGGTGATAGCCCAGTAGATTAAATCAAATTCTCTCAGTTCAGGATCCTGA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CTAGCAATCTCAACATGACAAAAATTAGCCCCACTAGCC------------------------ATACTAT
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E CTAGCAATCTCGACATGACAAAAATTAGCCCCACTAGCC------------------------ATACTAT
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ACATAACTCA---------CACAAATATAAGCCCAGGCACCCTGCTACT---------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ATATAACGTA---------CACAAACATGCACCCAGGGACCCTATTACT---------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ATATAACGTA---------CACAAGTATGAGCCCCGAGATCCTACTACT---------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ATATAACGTA---------CACAAACTTAAGCCCAGGGACCCTATTACT---------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       TTGCGTAGTAACATACCACCTCGCACTGGGATCCGGAGGGACTCCTGCC---------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GTACGGCGGAACACGTGAAATTCCGTCGGAATCCGGGAGGACCATCTCCCAAGGCTAAATACTACCTAGT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ATATAACGTA---------CACAAACATGAGCCCCGAGACCCTATTACT---------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ATATAACGTA---------CACAAACATGAGCCCAGAGACCCTATTACT---------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GACCGATAGTGAACCAGTACCGTGAGGGAAAGGTGAAAAGCACCCCGGGAGGGGAGTGAAATAGTTCCTG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  AAACCATGTGCCTACAATAAGTCAGAGCGCGTTAATGCGTGATGGCGTGCCTTTTGTAGAATGAACCGGC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GAGTTATGATCCCGTGCAAGGTTAAGACTAAAAAGTCGGAGCCGTAGCGAAAGCGAGTCTGAAATGGGCG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ---------------------------AGTAGGACTTCTATC----------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ---------------------------AGTAGGCCTCCTATC----------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ---------------------------AATAGGACTCCTATC----------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ---------------------------AGTAGGACTCCTATC----------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ---------------------------GTAAAACCCCCCA------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TTTTGAGTACGAGGTTATAGACCCGAAACCAGGTGACCTATCCATGTCCAGGTTGAAGGTGCGGTAAAAC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ---------------------------AGTAGGACTCTTATC----------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ---------------------------AGTAGGACTCTTATC----------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       --------------AGCCCTCGTAGG------------AGGATGAGGCG--------GACTAAACCAAAC
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             --------------AGCCCTTGTTGG------------GGGGTGGGGCG--------GATTAAACCAGAC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   --------------AGCCCTTGTTGG------------GGGATGGGGCG--------GATTAAACCAAAC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      --------------AGCCCTTATTGG------------TGGGTGAGGCG--------GATTAAACCAGAC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GCACTGGAGGACCGAACCCGTGTAAGTTGAAAATTGCTGGGATGAGGTGTGGATAGCGGTGAAATTCCAA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  --------------AGCCCTTATTGG------------GGGGTGGGGCG--------GGTTAAACCAAAC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E --------------AGCCCTTATTGG------------AGGGTGGGGCG--------GGTTAAACCAAAC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ACAAACACGAACAATTATGGCCTTCTCCTCCATCGC-------------------------CCACATGGG
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ACAAACACGAACAATCATGGCCTTCTCCTCCATCGC-------------------------CCATATAGG
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ACAAACACGAACAATCATGGCCTTTTCCTCTATCGC-------------------------CCACATAGG
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ACAAACACGAACAATCATGGCCTTCTCCTCTATCGC-------------------------CCACATAGG
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ACGAACTTGGAGATAGCTGGTTCTCTCCGAAATAGCTTTAGGGCTAGCCTCGGAATTAGGATCATGGAGG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ACAAACACGAACAATCATGGCCTACTCCTCTATCGC-------------------------CCACATAGG
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ACAAACACGAACAATCATGGCCTTCTCCTCTATCGC-------------------------CCACATAGG
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CTGACTGGTGGCCGCACTGACCATTAACCCAAGCCTGGCAA------------CCCTAACCCTATCAGCC
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CTGACTAGTAGCTGCACTAACAATCAGCCAAAGCCTAGCAA------------CCTTGACACTATTAACC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CTGACTAGTAACCGCATTAACAATCAACCAAAGCCTGGCAA------------CCTTAACGCTACTGACA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TTGACTAGTAACCGCACTAGCAATTAACCAAAGCCTGGCAA------------CCCTAACACTATTAACC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TAGAGCACTATTTGGACTAGGGGCCCGTCTTGGGTTACTGAATTCAGATAAACTCCGAATGCCATTGATT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CTGACTAGTAACAGCACTAACAATCAACCAAAGCCTAGCAA------------CCTTAACACTACTAACC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E CTGACTAGTAACAGCACTAACAATCAACCAAAGCCTAGCAA------------CCCTAACACTACTAACC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       TATAT-----------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TATGT-----------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TATAT-----------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TATAT-----------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CATATCCGGGAGTCAGACGATGAGTGATAAGATCCACCGTCGAAAGGGGAACAGCCCAGACCATCAGTTA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TATGT-----------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TATGT-----------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  AGGTCCCTAAATGTATGCTAAGTGGAAAAGGATGTGGAGTTGCATAGACAACTAGGATGTTGGCTCAGAA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GCAGCCACCATTTAAAGAGTGCGTAATAGCTCACTAGTCGAGTGATCCTGCGCCGAAAATGTACCGGGGC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ---------------AACCATAACAGCAGCC---------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ---------------AACCATAACAGCAGCC---------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ---------------AACCATAACAGCAGCC---------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ---------------AATCATAACAGCAGCT---------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TAAGCATACTACCGAAACCATGGATGCGACCATTAGGTCGCGTGATAGGAGAGCGTTCTAAGGGCGGTGA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ---------------AACCATAACAGCAGCC---------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ---------------AACCATAACAGCAGCC---------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  AGCAAGATCGTGAGGACTTGTGGAGCGCTTAGAAGTGAGAATGCCGGTATGAGTAGCGAAAGATAGGTGA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       -------------------------------------------ATATTCGTACCACTAGCCACAACAAGC
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             -------------------------------------------ATATTCCTGCCACTAGCCACAACAAGC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   -------------------------------------------ATGTTCCTACCACTAGCCACAACAAGC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      -------------------------------------------ATATTCATGCCACTAGCCACAATAAGC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       -------------------------------------------ATTTTCCAAAGGTTGAC----------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GAATCCTATCCACCGAATGACTAAGGTTTCCTGGGGAAGGCTCGTCCTCCCAGGGTTAGTCGGGACCTAA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  -------------------------------------------ATGTTCCTACCGCTGGCCACAACAAGC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E -------------------------------------------ATGTTCCTACCGCTGGCCACAACAAGC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ACAAAAACC---ATCTCTGACATGGGGACAACATGAACAAGCTCCCCCGCCATCCTAACAATGATAATAA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ACAAAAACC---ATCTCCGACATAGGGACAACATGGACAACCTCCCCCACCATCCTGACAACAATAATAA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ACAAAAACC---ATCTCTGACATAGGGACAACATGAACAACCTCCCCCACGATCCTGACAACAATAATAA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ACAAAAACC---ATCTCTGATATAGGAACAACATGAACAACCTCACCCACCATCCTGACAACAATAATAG
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GTCGAGGCCGAGAGGCGTAGACGATGGATAACAGGTTGAGATTCCTGTACTAGTTAAGTGCGTTTGAGCA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ACAAAAACC---ATTTCTGATATAGGAACAACATGAACAACCTCTCCCGCCATTCTGATAACAATAATAA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ACAAAAACC---ATTTCTGATATAGGAACAACATGAACAACCTCTCCCGCCATTCTGATAACAATAATAA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       TTACACTAATATCCCTCGGCGGCCTTCCACCATTAACCGGCTTTATGCCCAAGTGGCTGATTATCAAAAA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TCACACTAATATCGCTGGGCGGCCTTCCCCCACTAACTGGCTTTATACCCAAATGGTTGATTATCAAAAA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TCACACTAGTGTCACTCGGCGGCCTTCCCCCGCTAACCGGCTTCATACCCAAATGACTAATTATCAAAAA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TTACACTAATGTCACTCGGCGGCCTTCCACCACTAACCGGCTTTATACCAAAATGACTGATTATCAAAAA
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ATGGAGGGACGCAGGAGGCTAAGATGTGCATTCTG-------TTGGATTAGAATGTCCAAGCAGTAAGTC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TTACACTAATATCACTCGGCGGCCTTCCCCCACTAACCGGCTTTATACCCAAATGGCTAATTATTAAAAA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TTACACTAATATCACTCGGCGGCCTTCCCCCACTAACCGGCTTTATACCCAAATGACTAGTTATCAAAAA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CTTAACAGCAACAGACCTAACCCTGCTT---GCCACACTCCTGCTCCTCGCAAGCTTACCAAGCCTATTC
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TCTAACAGCAACAGACTTAACCCTGCTT---GCCACACTTTTACTCCTCGCAAGCTTGCCAAGCTTGTTC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TTTAACAGCGACAAACTTAGCCCTACTT---GCCACACTTTTACTCCTCGCAAGCCTGCCGAGCTTATTC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CTTAACAGCAACAGACTTAACCCTGCTT---GCAACACTCTTACTCCTCGCAAGCTTACCAAGCTTATTC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TTGTGAAGAGTCAAATGCTTTTCACTTTAAGGACAAGCTGTGATGGGGAGCGAAATTTAGTAGCGAAGCG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TTTAACAGCAACAGACTTAACCCTACTT---GCCACACTCTTACTCCTAGCAAGCCTGCCGAGCTTGTTC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TTTAACAGCAACAGACCTAGCCCTACTT---GCCACACTCTTACTCCTCGCAAGCTTGCCGAGCTTGTTC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       TTCTACATTCGACTAGC--------CTACTTAACAATACTCACCACACCCCCTGCCACCACCACCAACGA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TTCTACATTCGACTGGC--------CTACTTAACAATACTTACCACACCCCCTACCACCACCGCCAACGA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TTCTACATTCGACTGGC--------CTACTTAACAATACTTACCACACCCCCCGCCACCACCACCAACGA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TTCTACATTCGACTAGC--------CTACTTAACAATACTTACCACACCTCCTGCCACCACCACCAACGA
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TCTGATGTCACACTGCCGAGAAAAGCTTCTAGTGAGTACTTA--------ACTACCCGTACCGCAAACCG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TTCTATATTCGACTGGC--------CTACTTAACAATACTTACCACACCACCTGCCACCACCACCAACGA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TTCTATATTCGACTGGC--------CTACTTAACAATACTTACCACACCACCTGCCACTACCACCAACGA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ATATAAATGACGCTTTAAACCAAACCTTAAGACCAAC-----------------ACAGCCCTACTAGTCA
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ACACAAATGACGCCTCAAACCAAACCTTAAAACCAGT-----------------ACAGCCCTGCTAATCA
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   GCACAAATGACGCTTCAAACCAAACCTTAAAACCAGC-----------------ACAGCCCTACTAATCA
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      GCACAAATGACGTCTCAAACCAAACCTTAAAACCAGC-----------------ACAGCCCTACTAATCA
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       -------------CTCGGATCAGGTAGGAATACCCGC-----------------TGAACTTAA-------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ACACAGGTA--GTCGAGGAGAGAATCCTAAGGTGAGCGAGTGAACTCTCGTTAAGGAACTCGGCAAAATG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  GCACAAATGACGCTTCAAGCCAAACCTTAAAATCAGC-----------------ACAGCATTACTAATCA
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E GCACAAATGACGCTTCAAGCCAAACCTTAAAGTCAGC-----------------ACAGCATTACTAATCA
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       CTGCCACAACAC------------TCCTACTACCAATAACAACAGC------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CCGCCACAGCAC------------TACTATTACCCGTAACAACAACACTCCACAACACCTTGTAGAAGTT
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CCACCACAACAT------------TACTACTACCAATAACAACAGCATTGCACAACACCACATAGAAGTT
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CCGCCACAACAC------------TGCTACTACCCACAACAACAGCACTGCACAACACCACATAGAAGTT
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ACCCCGTAACTTCGGGAGAAGGGGTGCTGATCGCAAGATCAGCCGCAGTGAATAGGCCCAGGCGACTGTT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CCACCGCAGCAC------------TACTCCTGCCAATAACTACAACACTGCACAACACCATGTAGAAGTT
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E CCGCCGCAGCAC------------TACTCCTGCCAATAACTACAACACTGAACAACCCCATGTAGAAGTT
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TAGGTTAAACTAAACCGAGGGCCTTCAAAGCCCTAA----ACATGAGCAACCGCCCTCCTAACTCCTGCC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TAGGTTAAACCAAACCGAGGGCCTTCAAAGCCCTAA----ACATGAGCAACCACCCTCCTAACTCCTGCC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TAGGTT-AACCAAACCAAGGGCCTTCAAAGCCCTAA----ACATGAGCAACCACCCTCCTAACTCCTGCC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TATCAAAAACA----CAGGTCTCTGCAAAATCGTAAGATGACGTATAGGGGCTGACGCCTGCCCGGTGCT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TAGGTTAAATCAAACCGAGAGCCTTCAAAGCCCTAA----ACATGAGCAACCACCCTCCTAACTCCTGCC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TAGGTTAAATCAAACCGAGAGCCTTCAAAGCCCTAA----ACATGAGCAACCACCCTCCTAACTCCTCCC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ACAAAACCAGAAAGCCTGTAAAACAATAATACATCCTCTGATTGCAACTCAGAC--------------AC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   --AAAATCAGAAGGCCTGTAAAAC--TAATACATCCTCTGATTGCAACACAGAC--------------AC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ACAAAATCAGAAGACCTGTAAAACAATAATACATCCTCTGATTGCAACTCAGAC--------------AC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GGAAGGTTAAAAGGATGGGTTAGCTTCGGCGAAGCTCAGAATTGAAGCCCCAGTAAACGGCGGCCGTAAC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  --AAAATCAGAAAGCCTGTAAAACAACAATACATCCTCTGATTGCAACTCAGAC--------------AC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E A-AAAATTAGAAAGCCTGTAAAACAACAATACATCCTCTGATTGCAACTCAGAC--------------AC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TTTAA-TTAAGCTAAGGC-------CTCCTAGACCAACGGGCCTCGATCC----------CGTAACAACT
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TTTAA-TTAAGCTAAGGC-------CTCCCAGACTAACGGGCCTCGATCC----------CGTAACAACT
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TTTAATTTAAGCTAAGGC-------CTCCTAGACTAACGGGCCTCGGTCC----------CGTAACAACT
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TATAA-CGGTCCTAAGGTAGCGAAATTCCTTGTCGGGTAAGTTCCGACCCGCACGAAAGGCGTAACGATC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TTTAA-TTAAGCTAAGGC-------CTCCTAGACTAACGGGCCTCGGTCC----------CGTAACAACT
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TTTAA-TTAAGCTAAGGC-------CTCCTAGACTAACGGGCCTCGGTCC----------CGTAACAACT
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TAGTTAACAACTAAACGCCCCAGCCAGCGG----------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TAGTTAACAACTAAACACCCTAGCCAGCGG----------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      TAGTTAACAACTAAACACCCTAGCCAGCGG----------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TGGGCACTGTCTCAACGAGAGACTCGGTGAAATTATATTGTCCGTGAAGATGCGGACTACCCGCGACAGG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TAGTTAACAACTAAACACCCTAGCCAGCGG----------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TAGTTAACAACTAAACACCCTAGCCAGCGG----------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ------------------GCTTCAATCTATCTT-------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ------------------GCTTCAGTCTATCTT-------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ------------------GCTTCAGTCTATCTT-------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ACGGAAAGACCCCATGGAGCTTTACTGTAGCTTGATATTGAGTGTTTGTACAGCTTGTACAGGATAGGTA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ------------------GCTTCAGTCTATCTT-------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ------------------GCTTCAGTCTATTTT-------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GGAGCCATAGAAACCGGAACGCTAGTTTCGGTGGAGGCGTTGGTGGGATACTACCCTCGCTGTATGACCA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ---------------------------------------------------------------CTCCCGT
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ---------------------------------------------------------------CTCCCGT
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ---------------------------------------------------------------CTCCCGT
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CTCTAACCCGCACCACTAATCGTGGTGGGAGACAGTGTCAGGTGGGCAGTTTGACTGGGGCGGTCGCCTC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ---------------------------------------------------------------CTCCCGT
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ---------------------------------------------------------------CTCCCGT
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CTAAAAAAAAACGG--------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CTAGAAAAAAACGG--------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      CTAAAAAAAAACGG--------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CTAAAAAGTAACGGAGGCGCCCAAAGGTTCCCTCAGAATGGTTGGAAATCATTCGCAGAGTGTAAAGGCA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  CTGAAAAAAAACGG--------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E GTGAAAAAAAACGG--------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CAAGGGAGCTTGACTGCGAGACAGACAGGTCGAGCAGGGACGAAAGTCGGGCTTAGTGATCCGGTGGTAC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CGTATGGAAGGGCCATCGCTCAACGGATAAAAGCTACCCTGGGGATAACAGGCTTATCTCCCCCAAGAGT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------GAGAAGCCCCGGCACCTTATTAAGTGCTTCTCCAAACTTGCATTTTGACGTGTATTCCAC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------GAGAAGCCCCGGCAC-TTCTTGGGTGCTTCTCCAAACTTGCATTTTGGCGTGTATTCCAC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------GAGAAGCCCCGGCAC-TTATTGGGTGCTTCTCCAAACTTGCATTTTGGCGTG-ATTCCAC
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CCACATCGACGGGGAGGTTTGGCACCTCGATGTCGGCTCATCGCATCCTGGGGCTGTAGTCG-GTCCCAA
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------GAGAAGCCCCGGCACCTTATTGGGTGCTTCTCCAAACTTGCATTTTGGCGTGTACTCCAC
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------GAGAAGCCCCGGCACCTTCTTGGGTGCTTCTCCAAACTTGCATTTTGGTGTGTACTCCAC
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             TGCTTGGGCTGGGAG-------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   TTCTTGGGCTGGTTG-------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      -GTTTGGGCTGGTTG-------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  GGGTTGGGCTGTTCGCCCATTAAAGCGGTACGCGAGCTGGGTTCAGAACGTCGTGAGACAGTTCGGTCCC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  TGCTTGGGCTGGTTG-------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E TGCTCGGGCCGGTGG-------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             -------------------------GGGGGG-CCTGGGCCCCGTA----------------AACGAGTTT
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   -------------------------GGGGGGGCATGGGCCCCGTA----------------AACGAGTTT
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      -------------------------GGGGGA-CACG----------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TATCCGTCGCGGGCGTAGGAAATTTGAGAGGACCTGTCCTTAGTACGAGAGGACCGGGATGGACATACCT
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  -------------------------GGGGGG-TGTT----------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E -------------------------GGGGGG---------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ACAGCCCGCCACCTGCTCGGCCA-----------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ACAGCTCGCCACCTGCTCGGCCA-----------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  CTGGTGTACCAGTTGTGCCGCCAGGCGCATCGCTGGGTAGCTACGTATGGATGTGATAAACGCTGAAAGC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             ----------------------------------------------------------------------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   ----------------------------------------------------------------------
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ATCTAAGTGTGAAACACACCTCGAGATGAGATTTCCCATTCCTTTATGGAAGTAAGACCCCTGAAAGATG
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       ----------------------------------------------------------------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             --------------------------------------------------------------------CC
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   --------------------------------------------------------------------CC
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      ----------------------------------------------------------------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       ----------------------------------------------------------------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  ATCAGGTAGATAGGTTAGAAGTGGCAGTGCGGTGACGCATGAAGCGGACTAATACTAATCGGTCGAGGAC
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  ----------------------------------------------------------------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E ----------------------------------------------------------------------
+
+Cyrtodactylus_annandalei_CAS_215722_JX440524_ND2_Cyrtodactylus_Irrawaddy_W       -----------------
+Cyrtodactylus_meersi_MH624104_MH624104_ND2_Cyrtodactylus_Irrawaddy_E             CTACCTAAA--------
+Cyrtodactylus_pyadalinensis_LSUHC_13932_MK488057_ND2_Cyrtodactylus_Irrawaddy_E   CTACCTTAGATGCTAGT
+Cyrtodactylus_nyinyikyawi_CAS_226139_MH624118_ND2_Cyrtodactylus_Irrawaddy_W      -----------------
+Cyrtodactylus_peguensis_LSUHC_13454_MH624122_ND2_Cyrtodactylus_Irrawaddy_E       -----------------
+Cyrtodactylus_pyinyaungensis_LSUHC_13148_MH624120_ND2_Cyrtodactylus_Irrawaddy_E  TTAACCAAG--------
+Cyrtodactylus_myintkyawthurai_CAS_245200_MH624107_ND2_Cyrtodactylus_Irrawaddy_E  -----------------
+Cyrtodactylus_myintkyawthurai_LSUHC_13501_MH624116_ND2_Cyrtodactylus_Irrawaddy_E -----------------
+
+;
+end;
