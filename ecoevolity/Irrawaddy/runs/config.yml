@@ -77,12 +77,12 @@ global_comparison_settings:
 
 comparisons:
 - comparison:
-    path: "../alignments/Edited_CalotesgoetziA2_and_Calotesbachae_CO1_Mekong.nex"
+    path: "../alignments/Calotes_spp_COI_Irrawaddy.nex"
 - comparison:
-    path: "../alignments/Edited_Indotestudo_elongata_CO1_Mekong.nex"
-- comparison:
-    path: "../alignments/Edited_Microhylamalcomi_CO1_Mekong.nex"
-- comparison:
-    path: "../alignments/Edited_Trimerusuruscyanolabris_and_Trimeresuruscardamomensis_ND4_Mekong.nex"
-- comparison:
-    path: "../alignments/Ichthyophisbannanicus_cytb_Mekong.nex"
+    path: "../alignments/Calotes_spp_COI_Irrawaddy.nex"
+
+Calotes_spp_12S_Irrawaddy.nex	       Oligodon_albocinctus_16S_Chindwin.nex
+Calotes_spp_COI_Chindwin.nex	       Oligodon_albocinctus_CYTB_Chindwin.nex
+Calotes_spp_COI_Irrawaddy.nex	       Trimeresurus_popeiorum_CYTB_Irrawaddy.nex
+Microhyla_berdmorei_COI_Irrawaddy.nex  Trimeresurus_popeiorum_ND4_Irrawaddy.nex
+Microlytta_aishani_16S_Chindwin.nex
