@@ -1,0 +1,1302 @@
+======================================================================
+                              Ecoevolity
+                  Estimating evolutionary coevality
+       Version 1.1.1 (HEAD 8565100: 2026-01-07T23:13:25-06:00)
+======================================================================
+
+Seed: 2016190090
+Using data in order to sample from the posterior distribution...
+Config path: config.yml
+Parsing config file...
+
+----------------------------------------------------------------------
+---
+event_model_prior:
+    dirichlet_process:
+        parameters:
+            concentration:
+                value: 7.5
+                estimate: false
+event_time_prior:
+    exponential_distribution:
+        rate: 100
+mcmc_settings:
+    chain_length: 75000
+    sample_frequency: 50
+comparisons:
+- comparison:
+    path: ../alignments/Acanthosaura_murphyi_CYTB_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Calotes_spp_COI_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Cyrtodactylus_ngati_ND2_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Draco_maculatus_ND2_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Ichthyophis_bannanicus_CYTB_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Ichthyophis_spp_CYTB_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Microhyla_berdmorei_COI_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Microhyla_malcomi_COI_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Microhyla1_mukhlesuri_CYTB_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Microhyla2_mukhlesuri_CYTB_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Trimeresurus1_spp_ND4_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Trimeresurus2_spp_ND4_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Trimeresurus3_spp_ND4_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Indotestudo_elongata_COI_Mekong.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+operator_settings:
+    auto_optimize: true
+    auto_optimize_delay: 1000
+    operators:
+        ModelOperator:
+            weight: 10
+            number_of_auxiliary_categories: 4
+        ConcentrationScaler:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateMixer:
+            weight: 5
+            scale: 0.02
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.02
+        EventTimeScaler:
+            weight: 1
+            scale: 0.02
+        TimeRootSizeMixer:
+            weight: 3
+            scale: 0.05
+----------------------------------------------------------------------
+
+Configuring model...
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+3 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Calotes_spp_COI_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+2 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Cyrtodactylus_ngati_ND2_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+
+#######################################################################
+##############################  WARNING  ##############################
+1 sites will be ignored from the alignment in:
+    '../alignments/Cyrtodactylus_ngati_ND2_Mekong.nex'
+due no data across all populations.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+6 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Draco_maculatus_ND2_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+2 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Ichthyophis_bannanicus_CYTB_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+3 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Ichthyophis_spp_CYTB_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+
+#######################################################################
+##############################  WARNING  ##############################
+2 sites will be ignored from the alignment in:
+    '../alignments/Ichthyophis_spp_CYTB_Mekong.nex'
+due no data across all populations.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+6 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Microhyla_berdmorei_COI_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+6 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Microhyla_malcomi_COI_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+2 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Microhyla1_mukhlesuri_CYTB_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+1 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Trimeresurus3_spp_ND4_Mekong.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+----------------------------------------------------------------------
+Summary of data from 14 comparisons:
+    Summary of data from '../alignments/Acanthosaura_murphyi_CYTB_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 299
+        Number of variable sites: 0
+        Number of patterns: 1
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E1 (6)
+            W1 (4)
+    Summary of data from '../alignments/Calotes_spp_COI_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 658
+        Number of variable sites: 109
+        Number of patterns: 13
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W2 (8)
+            E2 (12)
+    Summary of data from '../alignments/Cyrtodactylus_ngati_ND2_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1397
+        Number of variable sites: 105
+        Number of patterns: 30
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E3 (14)
+            W3 (6)
+    Summary of data from '../alignments/Draco_maculatus_ND2_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1032
+        Number of variable sites: 152
+        Number of patterns: 39
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E4 (6)
+            W4 (30)
+    Summary of data from '../alignments/Ichthyophis_bannanicus_CYTB_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 584
+        Number of variable sites: 66
+        Number of patterns: 16
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W5 (14)
+            E5 (12)
+    Summary of data from '../alignments/Ichthyophis_spp_CYTB_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1294
+        Number of variable sites: 197
+        Number of patterns: 15
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E (8)
+            W (4)
+    Summary of data from '../alignments/Microhyla_berdmorei_COI_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 624
+        Number of variable sites: 79
+        Number of patterns: 16
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E10 (66)
+            W10 (6)
+    Summary of data from '../alignments/Microhyla_malcomi_COI_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 624
+        Number of variable sites: 79
+        Number of patterns: 16
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E11 (66)
+            W11 (6)
+    Summary of data from '../alignments/Microhyla1_mukhlesuri_CYTB_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 629
+        Number of variable sites: 47
+        Number of patterns: 13
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W8 (10)
+            S8 (10)
+    Summary of data from '../alignments/Microhyla2_mukhlesuri_CYTB_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 588
+        Number of variable sites: 13
+        Number of patterns: 2
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W9 (10)
+            E9 (10)
+    Summary of data from '../alignments/Trimeresurus1_spp_ND4_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 800
+        Number of variable sites: 63
+        Number of patterns: 16
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E12 (4)
+            W12 (16)
+    Summary of data from '../alignments/Trimeresurus2_spp_ND4_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 626
+        Number of variable sites: 61
+        Number of patterns: 22
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W13 (16)
+            E13 (16)
+    Summary of data from '../alignments/Trimeresurus3_spp_ND4_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 626
+        Number of variable sites: 69
+        Number of patterns: 15
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W14 (12)
+            E14 (12)
+    Summary of data from '../alignments/Indotestudo_elongata_COI_Mekong.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1468
+        Number of variable sites: 18
+        Number of patterns: 13
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W7 (4)
+            E7 (12)
+----------------------------------------------------------------------
+
+Number of threads: 1
+Firing up MCMC...
+State log path: config-state-run-1.log
+Operator log path: config-operator-run-1.log
+generation	ln_likelihood	ln_prior	number_of_events	concentration
+0	-19353.8	179.947	14	7.5
+500	-18525.1	136.813	7	7.5
+1000	-18489.7	134.127	8	7.5
+1500	-18501.5	145.289	8	7.5
+2000	-18501.5	121.076	5	7.5
+2500	-18501	141.355	8	7.5
+3000	-18501.7	141.471	9	7.5
+3500	-18489.9	130.568	9	7.5
+4000	-18494.2	137.999	9	7.5
+4500	-18495.9	143.489	10	7.5
+5000	-18497.4	138.149	6	7.5
+5500	-18498	134.453	7	7.5
+6000	-18490.4	144.596	9	7.5
+6500	-18491.9	131.688	9	7.5
+7000	-18493.6	128.23	8	7.5
+7500	-18504.7	126.503	7	7.5
+8000	-18501.8	137.724	7	7.5
+8500	-18501.7	138.871	10	7.5
+9000	-18492.1	129.702	7	7.5
+9500	-18501.4	124.254	7	7.5
+10000	-18502	135.259	8	7.5
+10500	-18496.4	138.626	9	7.5
+11000	-18492	140.038	10	7.5
+11500	-18492.9	134.588	9	7.5
+12000	-18513.4	129.963	6	7.5
+12500	-18504	142.106	8	7.5
+13000	-18493.9	131.246	7	7.5
+13500	-18504.5	138.817	7	7.5
+14000	-18494.7	125.479	6	7.5
+14500	-18487.8	119.8	7	7.5
+15000	-18499	135.622	9	7.5
+15500	-18493.6	140.616	9	7.5
+16000	-18495.6	135.658	8	7.5
+16500	-18493.7	128.551	6	7.5
+17000	-18494.4	130.026	6	7.5
+17500	-18505.4	128.39	6	7.5
+18000	-18497.3	141.364	10	7.5
+18500	-18502.7	126.326	5	7.5
+19000	-18492.1	135.409	8	7.5
+19500	-18496.6	126.685	8	7.5
+20000	-18502.3	126.788	5	7.5
+20500	-18495.6	129.377	8	7.5
+21000	-18506.9	130.289	6	7.5
+21500	-18498	136.085	8	7.5
+22000	-18493.2	125.356	7	7.5
+22500	-18492.8	130.071	7	7.5
+23000	-18490.4	135.585	7	7.5
+23500	-18493.6	125.327	8	7.5
+24000	-18495.3	131.634	8	7.5
+24500	-18499.6	124.896	6	7.5
+25000	-18498.9	138.975	9	7.5
+25500	-18496.9	131.35	8	7.5
+26000	-18494	139.584	8	7.5
+26500	-18497.5	143.436	9	7.5
+27000	-18493.6	128.485	7	7.5
+27500	-18495.7	128.248	7	7.5
+28000	-18506	136.611	10	7.5
+28500	-18498.9	144.713	9	7.5
+29000	-18501.1	129.432	8	7.5
+29500	-18493.9	141.359	9	7.5
+30000	-18497	139.076	8	7.5
+30500	-18495.8	137.28	8	7.5
+31000	-18498.3	122.694	8	7.5
+31500	-18496	128.868	7	7.5
+32000	-18497.6	138.614	8	7.5
+32500	-18496.5	131.975	8	7.5
+33000	-18499.7	134.878	8	7.5
+33500	-18492.8	129.631	7	7.5
+34000	-18501.8	131.478	7	7.5
+34500	-18486.3	122.569	7	7.5
+35000	-18491.2	135.864	7	7.5
+35500	-18502	139.028	8	7.5
+36000	-18498	122.172	5	7.5
+36500	-18485.4	117.088	5	7.5
+37000	-18496.6	132.573	7	7.5
+37500	-18500.4	126.988	5	7.5
+38000	-18503.7	135.531	6	7.5
+38500	-18500.3	124.91	7	7.5
+39000	-18499.3	142.549	9	7.5
+39500	-18506.3	133.426	7	7.5
+40000	-18508	138.124	10	7.5
+40500	-18489.1	128.081	7	7.5
+41000	-18500.6	129.341	6	7.5
+41500	-18495.7	131.922	7	7.5
+42000	-18499.4	132.094	7	7.5
+42500	-18503.1	130.65	6	7.5
+43000	-18499.5	136.525	8	7.5
+43500	-18500.4	135.023	8	7.5
+44000	-18496.8	129.928	7	7.5
+44500	-18485.3	122.766	8	7.5
+45000	-18490	122.633	7	7.5
+45500	-18496.3	138.134	8	7.5
+46000	-18494.5	128.293	7	7.5
+46500	-18503.2	129.254	6	7.5
+47000	-18500.9	123.958	7	7.5
+47500	-18496.3	140.996	8	7.5
+48000	-18506.8	135.6	8	7.5
+48500	-18500	119.488	5	7.5
+49000	-18501.2	131.392	6	7.5
+49500	-18499.9	143.976	9	7.5
+50000	-18498.1	142.049	10	7.5
+50500	-18500.8	122.053	5	7.5
+51000	-18496.6	124.802	6	7.5
+51500	-18506.3	142.695	9	7.5
+52000	-18502.7	122.169	5	7.5
+52500	-18509	128.63	6	7.5
+53000	-18489.7	137.426	8	7.5
+53500	-18500.7	131.112	6	7.5
+54000	-18488.3	107.098	5	7.5
+54500	-18503.2	137.702	8	7.5
+55000	-18493.9	138.845	8	7.5
+55500	-18496	139.463	9	7.5
+56000	-18493.6	120.902	5	7.5
+56500	-18502.2	129.904	7	7.5
+57000	-18500.8	136.491	7	7.5
+57500	-18495.5	134.923	7	7.5
+58000	-18492.4	137.332	8	7.5
+58500	-18501.3	133.444	7	7.5
+59000	-18497.1	133.721	7	7.5
+59500	-18503.4	134.585	9	7.5
+60000	-18498.4	133.483	8	7.5
+60500	-18497.4	142.569	10	7.5
+61000	-18500.2	132.306	8	7.5
+61500	-18510.5	149.209	10	7.5
+62000	-18516.4	138.065	8	7.5
+62500	-18493	111.746	5	7.5
+63000	-18495.2	127.884	7	7.5
+63500	-18496.3	133.958	8	7.5
+64000	-18493.8	135.95	8	7.5
+64500	-18494.5	135.513	9	7.5
+65000	-18485.5	132.752	10	7.5
+65500	-18493.9	137.21	9	7.5
+66000	-18500.1	138.252	9	7.5
+66500	-18488.2	116.79	6	7.5
+67000	-18504	144.422	8	7.5
+67500	-18500.3	138.029	8	7.5
+68000	-18497.2	125.889	6	7.5
+68500	-18508.5	130.175	7	7.5
+69000	-18493	130.035	7	7.5
+69500	-18499.3	128.793	7	7.5
+70000	-18511.3	136.827	7	7.5
+70500	-18496	122.846	9	7.5
+71000	-18497.3	135.138	7	7.5
+71500	-18502	137.647	8	7.5
+72000	-18495.4	123.48	7	7.5
+72500	-18493.1	128.494	8	7.5
+73000	-18499.6	133.825	7	7.5
+73500	-18506.6	138.635	8	7.5
+74000	-18496.2	143.436	9	7.5
+74500	-18499.2	130.29	7	7.5
+75000	-18492.5	127.501	6	7.5
+
+Operator stats:
+name	number_accepted	number_rejected	weight	weight_prob	tuning_parameter
+DirichletProcessGibbsSampler	15833	0	10	0.212766	none	
+TimeSizeRateMixer	30426	30904	5	0.106383	0.205675	
+TimeRootSizeMixer	16546	20330	3	0.0638298	0.189627	
+EventTimeScaler	118024	112004	1	0.0212766	0.465947	
+RootPopulationSizeScaler0	7042	7551	1	0.0212766	0.323601	
+LeafPopulationSizeScaler0	8629	5979	1	0.0212766	1.43345	
+RootPopulationSizeScaler1	7119	7470	1	0.0212766	0.321782	
+LeafPopulationSizeScaler1	7529	7050	1	0.0212766	0.648841	
+RootPopulationSizeScaler2	7159	7440	1	0.0212766	0.279081	
+LeafPopulationSizeScaler2	7546	7097	1	0.0212766	0.477094	
+RootPopulationSizeScaler3	7193	7324	1	0.0212766	0.307671	
+LeafPopulationSizeScaler3	8353	6184	1	0.0212766	0.415398	
+RootPopulationSizeScaler4	7366	7311	1	0.0212766	0.273117	
+LeafPopulationSizeScaler4	7772	6793	1	0.0212766	0.470157	
+RootPopulationSizeScaler5	6952	7565	1	0.0212766	0.322395	
+LeafPopulationSizeScaler5	8342	6251	1	0.0212766	0.542117	
+RootPopulationSizeScaler6	7345	7278	1	0.0212766	0.284064	
+LeafPopulationSizeScaler6	7942	6697	1	0.0212766	0.536896	
+RootPopulationSizeScaler7	7190	7372	1	0.0212766	0.294867	
+LeafPopulationSizeScaler7	8240	6375	1	0.0212766	0.491328	
+RootPopulationSizeScaler8	7171	7371	1	0.0212766	0.285481	
+LeafPopulationSizeScaler8	7659	6907	1	0.0212766	0.596778	
+RootPopulationSizeScaler9	7275	7357	1	0.0212766	0.31009	
+LeafPopulationSizeScaler9	8532	5997	1	0.0212766	0.981455	
+RootPopulationSizeScaler10	7286	7280	1	0.0212766	0.309292	
+LeafPopulationSizeScaler10	10155	4384	1	0.0212766	0.720564	
+RootPopulationSizeScaler11	7651	6919	1	0.0212766	0.304554	
+LeafPopulationSizeScaler11	8378	6115	1	0.0212766	0.750935	
+RootPopulationSizeScaler12	7128	7471	1	0.0212766	0.31248	
+LeafPopulationSizeScaler12	8112	6389	1	0.0212766	0.658849	
+RootPopulationSizeScaler13	7496	7025	1	0.0212766	0.293143	
+LeafPopulationSizeScaler13	8628	5918	1	0.0212766	0.755595	
+
+Runtime: 21532 seconds.

@@ -1,0 +1,450 @@
+======================================================================
+                              Ecoevolity
+                  Estimating evolutionary coevality
+       Version 1.1.1 (HEAD 8565100: 2026-01-07T23:13:25-06:00)
+======================================================================
+
+Seed: 1926291753
+Using data in order to sample from the posterior distribution...
+Config path: config.yml
+Parsing config file...
+
+----------------------------------------------------------------------
+---
+event_model_prior:
+    dirichlet_process:
+        parameters:
+            concentration:
+                value: 7.5
+                estimate: false
+event_time_prior:
+    exponential_distribution:
+        rate: 100
+mcmc_settings:
+    chain_length: 75000
+    sample_frequency: 50
+comparisons:
+- comparison:
+    path: ../alignments/Acanthosaura_crucigera_CYTB_Salween.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Draco_maculatus_ND2_Salween.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+- comparison:
+    path: ../alignments/Trimeresurus_lanna_CYTB_Salween.nex
+    ploidy: 2
+    genotypes_are_diploid: true
+    markers_are_dominant: false
+    population_name_delimiter: ' '
+    population_name_is_prefix: false
+    constant_sites_removed: false
+    equal_population_sizes: false
+    parameters:
+        population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 4
+                    scale: 0.001
+        root_relative_population_size:
+            estimate: true
+            prior:
+                gamma_distribution:
+                    shape: 100
+                    scale: 0.01
+                    offset: 0
+        mutation_rate:
+            value: 1
+            estimate: false
+        freq_1:
+            value: 0.5
+            estimate: false
+    operators:
+        TimeSizeRateMixer:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.1
+        EventTimeScaler:
+            weight: 0
+            scale: 0.1
+        RootPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        LeafPopulationSizeScaler:
+            weight: 1
+            scale: 0.05
+        MutationRateScaler:
+            weight: 0
+            scale: 0.3
+        FreqMover:
+            weight: 0
+            window: 0.1
+        TimeRootSizeMixer:
+            weight: 0
+            scale: 0.05
+operator_settings:
+    auto_optimize: true
+    auto_optimize_delay: 1000
+    operators:
+        ModelOperator:
+            weight: 10
+            number_of_auxiliary_categories: 4
+        ConcentrationScaler:
+            weight: 0
+            scale: 0.1
+        TimeSizeRateMixer:
+            weight: 5
+            scale: 0.02
+        TimeSizeRateScaler:
+            weight: 0
+            scale: 0.02
+        EventTimeScaler:
+            weight: 1
+            scale: 0.02
+        TimeRootSizeMixer:
+            weight: 3
+            scale: 0.05
+----------------------------------------------------------------------
+
+Configuring model...
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+5 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Acanthosaura_crucigera_CYTB_Salween.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+#######################################################################
+##############################  WARNING  ##############################
+24 sites had more than two nucleotide states from the alignment in:
+    '../alignments/Draco_maculatus_ND2_Salween.nex'.
+These sites have been recoded as biallelic, by treating the first
+nucleotide as 0 and all others as 1. If you would prefer to ignore
+these sites, please remove all sites with more than two nucleotide
+states from your DNA alignments and re-run the analysis.
+#######################################################################
+
+storing implied block: TAXA
+storing read block: DATA
+
+----------------------------------------------------------------------
+Summary of data from 3 comparisons:
+    Summary of data from '../alignments/Acanthosaura_crucigera_CYTB_Salween.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 900
+        Number of variable sites: 130
+        Number of patterns: 8
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W1 (4)
+            E1 (10)
+    Summary of data from '../alignments/Draco_maculatus_ND2_Salween.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1032
+        Number of variable sites: 212
+        Number of patterns: 31
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            E3 (14)
+            W3 (16)
+    Summary of data from '../alignments/Trimeresurus_lanna_CYTB_Salween.nex':
+        Genotypes: diploid
+        Markers are dominant? false
+        Number of populations: 2
+        Number of sites: 1124
+        Number of variable sites: 46
+        Number of patterns: 21
+        Patterns folded? true
+        Population label (max # of alleles sampled):
+            W5 (6)
+            E5 (14)
+----------------------------------------------------------------------
+
+Number of threads: 1
+Firing up MCMC...
+State log path: config-state-run-1.log
+Operator log path: config-operator-run-1.log
+generation	ln_likelihood	ln_prior	number_of_events	concentration
+0	-6885.24	39.6563	3	7.5
+500	-6375.57	27.4369	3	7.5
+1000	-6373.44	27.5303	3	7.5
+1500	-6374.12	28.2045	3	7.5
+2000	-6379.73	30.4091	3	7.5
+2500	-6374.66	28.5895	3	7.5
+3000	-6372.38	26.8213	3	7.5
+3500	-6377.24	30.6973	3	7.5
+4000	-6378.76	31.5978	3	7.5
+4500	-6379.14	29.5829	3	7.5
+5000	-6375.3	25.861	3	7.5
+5500	-6373.04	24.2703	3	7.5
+6000	-6381.08	26.5893	3	7.5
+6500	-6378.57	28.5459	3	7.5
+7000	-6374.65	26.8231	3	7.5
+7500	-6380.91	30.898	3	7.5
+8000	-6372.86	27.1768	3	7.5
+8500	-6373.31	21.3215	3	7.5
+9000	-6373.14	24.6541	3	7.5
+9500	-6373.91	24.3593	3	7.5
+10000	-6369.59	17.3875	3	7.5
+10500	-6373.36	26.4725	3	7.5
+11000	-6373.19	24.5327	3	7.5
+11500	-6374.65	25.4519	3	7.5
+12000	-6378.83	30.6608	3	7.5
+12500	-6373.77	28.6482	3	7.5
+13000	-6376.07	26.5678	3	7.5
+13500	-6373.51	25.2292	3	7.5
+14000	-6377.23	28.768	3	7.5
+14500	-6375.03	26.5269	3	7.5
+15000	-6377.27	27.8841	3	7.5
+15500	-6379.28	31.638	3	7.5
+16000	-6378.26	30.9633	3	7.5
+16500	-6373.14	26.687	3	7.5
+17000	-6375.46	28.5287	3	7.5
+17500	-6376.03	25.7186	3	7.5
+18000	-6375.53	29.9507	3	7.5
+18500	-6374.28	25.0037	3	7.5
+19000	-6379.54	30.0033	3	7.5
+19500	-6379.4	30.771	3	7.5
+20000	-6376.17	28.4169	3	7.5
+20500	-6376.65	28.3491	3	7.5
+21000	-6373.96	24.9564	3	7.5
+21500	-6372.23	25.0263	3	7.5
+22000	-6372.85	26.8043	3	7.5
+22500	-6374.27	26.8423	3	7.5
+23000	-6375.44	24.1175	3	7.5
+23500	-6377.58	28.2302	3	7.5
+24000	-6377.88	30.3405	3	7.5
+24500	-6376.43	27.0995	3	7.5
+25000	-6372	23.7487	3	7.5
+25500	-6376.07	27.0477	3	7.5
+26000	-6376.08	27.1877	3	7.5
+26500	-6374.08	26.8654	3	7.5
+27000	-6374.12	22.145	3	7.5
+27500	-6376.85	27.5914	3	7.5
+28000	-6374.44	25.9937	3	7.5
+28500	-6377.99	28.176	3	7.5
+29000	-6378.36	30.3879	3	7.5
+29500	-6377.56	29.4951	3	7.5
+30000	-6374.95	29.3187	3	7.5
+30500	-6372.18	28.11	3	7.5
+31000	-6375.35	26.2532	3	7.5
+31500	-6376.23	21.4026	2	7.5
+32000	-6377.54	30.0071	3	7.5
+32500	-6374.68	25.8692	3	7.5
+33000	-6376.79	26.9646	3	7.5
+33500	-6381.41	25.3339	3	7.5
+34000	-6375.15	29.172	3	7.5
+34500	-6375.17	25.3577	3	7.5
+35000	-6371.82	24.2367	3	7.5
+35500	-6376.34	27.5863	3	7.5
+36000	-6373.62	27.3705	3	7.5
+36500	-6379.1	29.469	3	7.5
+37000	-6382.1	28.0975	3	7.5
+37500	-6373.93	25.0268	3	7.5
+38000	-6371.11	25.9773	3	7.5
+38500	-6375.58	28.103	3	7.5
+39000	-6371.9	26.6169	3	7.5
+39500	-6374.1	26.745	3	7.5
+40000	-6381.79	30.763	3	7.5
+40500	-6378.2	28.29	3	7.5
+41000	-6378.74	31.7199	3	7.5
+41500	-6379.27	29.4678	3	7.5
+42000	-6368.84	21.6612	3	7.5
+42500	-6375.42	26.806	3	7.5
+43000	-6369.91	23.667	3	7.5
+43500	-6375.35	29.7271	3	7.5
+44000	-6374.25	27.0108	3	7.5
+44500	-6378.77	23.0715	2	7.5
+45000	-6370.93	18.7112	3	7.5
+45500	-6382.94	23.2211	2	7.5
+46000	-6375.83	28.2097	3	7.5
+46500	-6374.97	25.3348	3	7.5
+47000	-6380.31	30.7159	3	7.5
+47500	-6377.74	28.8376	3	7.5
+48000	-6376.37	28.5656	3	7.5
+48500	-6374.26	28.6185	3	7.5
+49000	-6371.88	27.114	3	7.5
+49500	-6374.8	27.6037	3	7.5
+50000	-6374.73	24.7363	3	7.5
+50500	-6376.34	23.6975	3	7.5
+51000	-6376.85	25.4708	3	7.5
+51500	-6382.77	24.4561	3	7.5
+52000	-6372.24	22.2702	3	7.5
+52500	-6379.25	31.2986	3	7.5
+53000	-6376.2	28.7859	3	7.5
+53500	-6379.51	28.1202	3	7.5
+54000	-6375.6	24.2369	3	7.5
+54500	-6378.46	28.315	3	7.5
+55000	-6376.86	29.5215	3	7.5
+55500	-6375.87	27.7779	3	7.5
+56000	-6376.97	27.7722	3	7.5
+56500	-6373.53	25.7407	3	7.5
+57000	-6378.52	24.7609	2	7.5
+57500	-6376.91	30.609	3	7.5
+58000	-6377.3	27.0401	3	7.5
+58500	-6376.12	27.7409	3	7.5
+59000	-6382.37	29.6628	3	7.5
+59500	-6380.2	28.8361	3	7.5
+60000	-6376.53	29.188	3	7.5
+60500	-6370.07	23.2541	3	7.5
+61000	-6373.22	24.858	3	7.5
+61500	-6376.39	22.8137	3	7.5
+62000	-6385.36	34.3629	3	7.5
+62500	-6376.43	28.6573	3	7.5
+63000	-6375.66	26.9409	3	7.5
+63500	-6373.68	27.4972	3	7.5
+64000	-6379.93	29.8546	3	7.5
+64500	-6383.6	30.8625	3	7.5
+65000	-6373.77	27.7295	3	7.5
+65500	-6374.55	29.0045	3	7.5
+66000	-6376.5	29.4198	3	7.5
+66500	-6375.63	28.0681	3	7.5
+67000	-6375.46	27.6217	3	7.5
+67500	-6380.6	22.6076	2	7.5
+68000	-6372.9	27.4792	3	7.5
+68500	-6380.01	31.5826	3	7.5
+69000	-6374.41	25.5688	3	7.5
+69500	-6373.44	26.6242	3	7.5
+70000	-6372.51	23.71	3	7.5
+70500	-6377.81	28.88	3	7.5
+71000	-6374.42	28.0894	3	7.5
+71500	-6371.87	25.8509	3	7.5
+72000	-6376.13	27.3381	3	7.5
+72500	-6381.64	27.9305	3	7.5
+73000	-6372.22	25.2439	3	7.5
+73500	-6378.48	27.7335	3	7.5
+74000	-6373.69	25.2812	3	7.5
+74500	-6374.71	26.1643	3	7.5
+75000	-6370.55	24.8997	3	7.5
+
+Operator stats:
+name	number_accepted	number_rejected	weight	weight_prob	tuning_parameter
+DirichletProcessGibbsSampler	29818	0	10	0.4	none	
+TimeSizeRateMixer	21579	22505	5	0.2	0.233805	
+TimeRootSizeMixer	12571	13632	3	0.12	0.221785	
+EventTimeScaler	82197	84549	1	0.04	0.407234	
+RootPopulationSizeScaler0	12958	14039	1	0.04	0.323607	
+LeafPopulationSizeScaler0	14110	12888	1	0.04	0.574146	
+RootPopulationSizeScaler1	12574	14394	1	0.04	0.238891	
+LeafPopulationSizeScaler1	13881	13060	1	0.04	0.298353	
+RootPopulationSizeScaler2	13544	13487	1	0.04	0.31002	
+LeafPopulationSizeScaler2	15146	11876	1	0.04	0.73397	
+
+Runtime: 2820 seconds.
